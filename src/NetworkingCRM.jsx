@@ -30,6 +30,7 @@ import {
   BellOff,
   ListPlus,
   FileText,
+  Inbox,
 } from "lucide-react";
 
 /* ------------------------------------------------------------------ *
@@ -105,6 +106,7 @@ const appStatusById = (id) => APP_STATUSES.find((s) => s.id === id) || APP_STATU
 const resumeOf = (c) => c.resume || { sent: false, date: "", status: "applied", reason: "" };
 
 const STORAGE_KEY = "contacts:v1";
+const REVIEW_KEY = "review:v1"; // pending email-based suggestions awaiting approval
 
 /* ------------------------------------------------------------------ *
  * Stage tint -> static Tailwind classes (kept literal for the JIT).
@@ -521,6 +523,7 @@ export default function NetworkingCRM() {
   const [editFocus, setEditFocus] = useState(null); // field name to focus on open
   const [confirmReset, setConfirmReset] = useState(false);
   const [toast, setToast] = useState("");
+  const [reviewQueue, setReviewQueue] = useState([]); // pending email suggestions
 
   const importRef = useRef(null);
 
@@ -557,6 +560,25 @@ export default function NetworkingCRM() {
     }
   }, [contacts, loading]);
 
+  /* ---------------- review queue: load + persist ---------------- */
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(REVIEW_KEY);
+      const parsed = raw ? JSON.parse(raw) : null;
+      if (Array.isArray(parsed)) setReviewQueue(parsed);
+    } catch (e) {
+      // Ignore a corrupt review cache — it's non-critical, regenerated on next sync.
+    }
+  }, []);
+  useEffect(() => {
+    if (loading) return;
+    try {
+      localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewQueue));
+    } catch (e) {
+      /* non-critical */
+    }
+  }, [reviewQueue, loading]);
+
   const flash = useCallback((msg) => {
     setToast(msg);
     window.clearTimeout(flash._t);
@@ -587,6 +609,64 @@ export default function NetworkingCRM() {
   const closeEditor = () => {
     setEditing(null);
     setEditFocus(null);
+  };
+
+  /* ---------------- review queue actions ---------------- */
+  // Approve a suggested update: log it in the contact's activity, bump
+  // last-contacted, optionally change stage. Never fires until the user clicks.
+  const applyUpdate = useCallback(
+    ({ id, contactId, date, subject, summary, stage }) => {
+      setContacts((prev) =>
+        prev.map((c) => {
+          if (c.id !== contactId) return c;
+          const activity = [...(c.activity || []), { date, summary, subject, source: "gmail" }];
+          const lastContact = !c.lastContact || date > c.lastContact ? date : c.lastContact;
+          return { ...c, activity, lastContact, ...(stage ? { stage } : {}) };
+        })
+      );
+      setReviewQueue((q) => q.filter((s) => s.id !== id));
+      flash("Update applied to contact");
+    },
+    [flash]
+  );
+  const dismissSuggestion = useCallback((id) => {
+    setReviewQueue((q) => q.filter((s) => s.id !== id));
+  }, []);
+  // Unknown sender -> open a prefilled new-contact editor (never auto-created).
+  const addSuggestedContact = (sugg) => {
+    setReviewQueue((q) => q.filter((s) => s.id !== sugg.id));
+    openEditor({ ...emptyContact(), name: sugg.contactName || "", email: sugg.emailAddress || "" });
+  };
+  // Temporary: inject a sample suggestion so the flow is testable before Gmail
+  // is connected. Matches a real contact that has an email if one exists.
+  const addTestSuggestion = () => {
+    const withEmail = contacts.find((c) => c.email);
+    const id = `sg_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 6)}`;
+    const sugg = withEmail
+      ? {
+          id,
+          kind: "update",
+          contactId: withEmail.id,
+          contactName: withEmail.name,
+          emailAddress: withEmail.email,
+          date: todayISO(),
+          subject: "Re: Coffee next week?",
+          summary: `${withEmail.name} replied and wants to grab coffee next week — proposed Tuesday.`,
+          suggestedStage: "in_conversation",
+        }
+      : {
+          id,
+          kind: "new_contact",
+          contactId: null,
+          contactName: "Dana Levi",
+          emailAddress: "dana.levi@example.com",
+          date: todayISO(),
+          subject: "Intro from a mutual friend",
+          summary: "Intro email about a possible referral — this sender isn't in your contacts yet.",
+          suggestedStage: null,
+        };
+    setReviewQueue((q) => [sugg, ...q]);
+    flash("Test suggestion added — see the Review tab");
   };
 
   /* ---------------- follow-up flow ---------------- */
@@ -759,6 +839,14 @@ export default function NetworkingCRM() {
             <Tab active={view === "resume"} onClick={() => setView("resume")} Icon={FileText}>
               Resume sent
             </Tab>
+            <Tab active={view === "review"} onClick={() => setView("review")} Icon={Inbox}>
+              Review
+              {reviewQueue.length > 0 && (
+                <span className="ml-1 rounded-full bg-blue-100 px-1.5 py-0.5 text-xs font-semibold text-blue-700">
+                  {reviewQueue.length}
+                </span>
+              )}
+            </Tab>
           </nav>
         </div>
       </header>
@@ -781,6 +869,14 @@ export default function NetworkingCRM() {
           <Board contacts={contacts} onMove={(id, stage) => patch(id, { stage })} onEdit={(c) => openEditor(c)} />
         ) : view === "resume" ? (
           <ResumeView contacts={contacts} onPatch={patch} onEdit={(c) => openEditor(c)} />
+        ) : view === "review" ? (
+          <ReviewView
+            queue={reviewQueue}
+            onApply={applyUpdate}
+            onDismiss={dismissSuggestion}
+            onAddContact={addSuggestedContact}
+            onAddTest={addTestSuggestion}
+          />
         ) : (
           <ContactsTable contacts={contacts} onPatch={patch} onEdit={(c) => openEditor(c)} onRemove={remove} />
         )}
@@ -1363,6 +1459,168 @@ function ResumeView({ contacts, onPatch, onEdit }) {
         ) : null
       )}
     </div>
+  );
+}
+
+/* ================================================================== *
+ * View — Review inbox (email-based suggestions awaiting approval)
+ * ================================================================== */
+function ReviewView({ queue, onApply, onDismiss, onAddContact, onAddTest }) {
+  return (
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 className="text-lg font-semibold tracking-tight text-slate-900">Review</h2>
+          <p className="max-w-xl text-xs text-slate-500">
+            Suggested updates from your email. Approve, edit, or dismiss each one — nothing changes a contact until you
+            approve.
+          </p>
+        </div>
+        <button
+          onClick={onAddTest}
+          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50"
+        >
+          <Plus size={15} /> Add test suggestion
+        </button>
+      </div>
+
+      {queue.length === 0 ? (
+        <div className="mx-auto mt-10 max-w-md rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center">
+          <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-900 text-stone-50">
+            <Inbox size={26} />
+          </div>
+          <h2 className="text-lg font-semibold text-slate-900">Nothing to review</h2>
+          <p className="mx-auto mt-1.5 max-w-xs text-sm text-slate-500">
+            When email-based updates come in, they'll wait here for your approval. Use “Add test suggestion” to preview
+            how it works.
+          </p>
+        </div>
+      ) : (
+        <ul className="space-y-3">
+          {queue.map((s) => (
+            <SuggestionCard key={s.id} s={s} onApply={onApply} onDismiss={onDismiss} onAddContact={onAddContact} />
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+function SuggestionCard({ s, onApply, onDismiss, onAddContact }) {
+  const [summary, setSummary] = useState(s.summary);
+  const [stage, setStage] = useState(s.suggestedStage || "");
+  const [includeStage, setIncludeStage] = useState(!!s.suggestedStage);
+
+  if (s.kind === "new_contact") {
+    return (
+      <li className="rounded-xl border border-slate-200 border-l-4 border-l-blue-400 bg-white p-4 shadow-sm">
+        <div className="flex items-start gap-2">
+          <span className="mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+            <UserPlus size={16} />
+          </span>
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="font-semibold text-slate-900">New sender</span>
+              <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-xs text-slate-600">{s.emailAddress}</span>
+              <span className="text-xs text-slate-400">· {formatDate(s.date)}</span>
+            </div>
+            {s.subject && <p className="mt-1 text-xs font-medium text-slate-500">{s.subject}</p>}
+            <p className="mt-1 text-sm text-slate-600">{s.summary}</p>
+            <p className="mt-1 text-xs text-slate-400">Not in your contacts yet — add them, or dismiss.</p>
+          </div>
+        </div>
+        <div className="mt-3 flex items-center justify-end gap-2">
+          <button
+            onClick={() => onDismiss(s.id)}
+            className="rounded-lg px-3 py-1.5 text-sm font-medium text-slate-600 transition hover:bg-slate-100"
+          >
+            Dismiss
+          </button>
+          <button
+            onClick={() => onAddContact(s)}
+            className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-1.5 text-sm font-medium text-stone-50 transition hover:bg-slate-700"
+          >
+            <UserPlus size={15} /> Add as contact
+          </button>
+        </div>
+      </li>
+    );
+  }
+
+  return (
+    <li className="rounded-xl border border-slate-200 border-l-4 border-l-emerald-400 bg-white p-4 shadow-sm">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="font-semibold text-slate-900">{s.contactName}</span>
+        <span className="rounded-md bg-slate-100 px-1.5 py-0.5 text-xs text-slate-500">{s.emailAddress}</span>
+        <span className="text-xs text-slate-400">· {formatDate(s.date)}</span>
+      </div>
+      {s.subject && <p className="mt-1 text-xs font-medium text-slate-500">{s.subject}</p>}
+
+      <label className="mt-2 block">
+        <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500">Summary (editable)</span>
+        <textarea
+          value={summary}
+          onChange={(e) => setSummary(e.target.value)}
+          rows={2}
+          className={`${inputCls(false)} resize-y`}
+        />
+      </label>
+
+      <p className="mt-2 rounded-lg bg-slate-50 px-3 py-2 text-sm text-slate-600">
+        Approving logs this summary to the contact and sets <b>last contacted</b> to {formatDate(s.date)}.
+      </p>
+
+      <div className="mt-2 flex flex-wrap items-center gap-2">
+        <label className="inline-flex items-center gap-2 text-sm text-slate-600">
+          <input
+            type="checkbox"
+            checked={includeStage}
+            onChange={(e) => setIncludeStage(e.target.checked)}
+            className="h-4 w-4 rounded border-slate-300 text-slate-900 focus:ring-slate-300"
+          />
+          Also move stage to
+        </label>
+        <select
+          value={stage}
+          onChange={(e) => setStage(e.target.value)}
+          disabled={!includeStage}
+          className={`rounded-md border-0 py-1 pl-2 pr-7 text-xs font-medium ring-1 focus:ring-2 disabled:opacity-40 ${
+            stage ? tintOf(stage).chip : "bg-slate-100 text-slate-500 ring-slate-200"
+          }`}
+        >
+          <option value="">— pick a stage —</option>
+          {STAGES.map((st) => (
+            <option key={st.id} value={st.id}>
+              {st.label}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="mt-3 flex items-center justify-end gap-2">
+        <button
+          onClick={() => onDismiss(s.id)}
+          className="rounded-lg px-3 py-1.5 text-sm font-medium text-slate-600 transition hover:bg-slate-100"
+        >
+          Dismiss
+        </button>
+        <button
+          onClick={() =>
+            onApply({
+              id: s.id,
+              contactId: s.contactId,
+              date: s.date,
+              subject: s.subject,
+              summary,
+              stage: includeStage && stage ? stage : null,
+            })
+          }
+          className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-1.5 text-sm font-medium text-stone-50 transition hover:bg-slate-700"
+        >
+          <Check size={15} /> Approve
+        </button>
+      </div>
+    </li>
   );
 }
 
