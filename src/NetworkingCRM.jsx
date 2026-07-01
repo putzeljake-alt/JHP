@@ -790,6 +790,10 @@ export default function NetworkingCRM() {
           {toast}
         </div>
       )}
+
+      <footer className="mx-auto max-w-7xl px-4 pb-8 pt-2 text-center text-xs text-slate-400 sm:px-6">
+        Your contacts are saved privately in this browser.
+      </footer>
     </div>
   );
 }
