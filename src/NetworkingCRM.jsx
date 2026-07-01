@@ -188,6 +188,7 @@ function emptyContact() {
   return {
     id: uid(),
     name: "",
+    email: "", // used to match incoming Gmail messages to this contact
     company: "",
     role: "",
     channels: [],
@@ -197,6 +198,7 @@ function emptyContact() {
     nextFollowUp: "",
     reminder: "7am", // calendar notification: see REMINDERS
     resume: { sent: false, date: "", status: "applied", reason: "" },
+    activity: [], // log of things that happened: [{ date, summary, source }]
     notes: "",
   };
 }
@@ -1663,6 +1665,17 @@ function ContactModal({ initial, isNew, autoFocusField, onClose, onSave, onDelet
               className={inputCls(nameMissing)}
             />
             {nameMissing && <p className="mt-1 text-xs text-red-500">Name is required.</p>}
+          </Field>
+
+          <Field label="Email">
+            <input
+              type="email"
+              value={form.email || ""}
+              onChange={(e) => set("email", e.target.value)}
+              placeholder="jane@acme.com"
+              className={inputCls(false)}
+            />
+            <p className="mt-1 text-xs text-slate-400">Used to match emails from Gmail to this contact.</p>
           </Field>
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
