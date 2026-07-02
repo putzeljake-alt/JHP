@@ -1,0 +1,281 @@
+{
+  "_meta": {
+    "generated": "2026-07-02T11:27:12.060632Z",
+    "note": "raw fast-flights responses; prices as returned by Google Flights"
+  },
+  "direct|TLV-JFK|2026-07-18|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "JFK",
+    "date": "2026-07-18",
+    "seat": "business",
+    "kind": "direct"
+  },
+  "direct|TLV-JFK|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "JFK",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "direct"
+  },
+  "direct|TLV-JFK|2026-07-20|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMjBqBRIDVExWcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "JFK",
+    "date": "2026-07-20",
+    "seat": "business",
+    "kind": "direct"
+  },
+  "direct|TLV-EWR|2026-07-18|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA0VXUkIBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "EWR",
+    "date": "2026-07-18",
+    "seat": "business",
+    "kind": "direct"
+  },
+  "direct|TLV-EWR|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA0VXUkIBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "EWR",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "direct"
+  },
+  "direct|TLV-EWR|2026-07-20|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMjBqBRIDVExWcgUSA0VXUkIBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "EWR",
+    "date": "2026-07-20",
+    "seat": "business",
+    "kind": "direct"
+  },
+  "transatlantic|MAD-JFK|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDTUFEcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "MAD",
+    "to_airport": "JFK",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "transatlantic|ORY-EWR|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDT1JZcgUSA0VXUkIBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "ORY",
+    "to_airport": "EWR",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "transatlantic|CDG-JFK|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDQ0RHcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "CDG",
+    "to_airport": "JFK",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "transatlantic|LIS-EWR|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDTElTcgUSA0VXUkIBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "LIS",
+    "to_airport": "EWR",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "transatlantic|LIS-JFK|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDTElTcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "LIS",
+    "to_airport": "JFK",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "transatlantic|AMS-JFK|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDQU1TcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "AMS",
+    "to_airport": "JFK",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "transatlantic|DUB-JFK|2026-07-19|business": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDRFVCcgUSA0pGS0IBAUgDmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "DUB",
+    "to_airport": "JFK",
+    "date": "2026-07-19",
+    "seat": "business",
+    "kind": "transatlantic"
+  },
+  "positioning|TLV-MAD|2026-07-18|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA01BREIBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "MAD",
+    "date": "2026-07-18",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-MAD|2026-07-19|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA01BREIBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "MAD",
+    "date": "2026-07-19",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-ORY|2026-07-18|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA09SWUIBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "ORY",
+    "date": "2026-07-18",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-ORY|2026-07-19|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA09SWUIBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "ORY",
+    "date": "2026-07-19",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-CDG|2026-07-18|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA0NER0IBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "CDG",
+    "date": "2026-07-18",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-CDG|2026-07-19|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA0NER0IBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "CDG",
+    "date": "2026-07-19",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-LIS|2026-07-18|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA0xJU0IBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "LIS",
+    "date": "2026-07-18",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-LIS|2026-07-19|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA0xJU0IBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "LIS",
+    "date": "2026-07-19",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-AMS|2026-07-18|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA0FNU0IBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "AMS",
+    "date": "2026-07-18",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-AMS|2026-07-19|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA0FNU0IBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "AMS",
+    "date": "2026-07-19",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-DUB|2026-07-18|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMThqBRIDVExWcgUSA0RVQkIBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "DUB",
+    "date": "2026-07-18",
+    "seat": "economy",
+    "kind": "positioning"
+  },
+  "positioning|TLV-DUB|2026-07-19|economy": {
+    "status": "error",
+    "error": "ConnectError: error sending request for url (https://www.google.com/travel/flights?tfs=GhoSCjIwMjYtMDctMTlqBRIDVExWcgUSA0RVQkIBAUgBmAEC&hl=&curr=USD) > client error (Connect) > tunnel error: unsuccessful",
+    "n": 0,
+    "flights": [],
+    "from_airport": "TLV",
+    "to_airport": "DUB",
+    "date": "2026-07-19",
+    "seat": "economy",
+    "kind": "positioning"
+  }
+}
