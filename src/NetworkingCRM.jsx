@@ -206,6 +206,96 @@ function emptyContact() {
 }
 
 /* ------------------------------------------------------------------ *
+ * Untrusted input -> known shape.
+ * Imported files and localStorage are both outside our control, so every
+ * record is rebuilt field by field: unknown keys are dropped, types are
+ * coerced, ids come from fixed vocabularies and text is length-capped.
+ * ------------------------------------------------------------------ */
+const MAX_CONTACTS = 5000;
+const MAX_ACTIVITY = 500;
+const MAX_TEXT = 2000;
+const MAX_NOTES = 20000;
+const MAX_IMPORT_BYTES = 5 * 1024 * 1024;
+
+const cleanText = (v, max = MAX_TEXT) => (typeof v === "string" ? v.slice(0, max) : "");
+const isoDate = (v) => {
+  if (typeof v !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(v)) return "";
+  const d = parseLocal(v);
+  return d && !Number.isNaN(d.getTime()) ? v : "";
+};
+const oneOf = (v, options, fallback) => (options.some((o) => o.id === v) ? v : fallback);
+
+function sanitizeResume(r) {
+  const raw = r && typeof r === "object" ? r : {};
+  return {
+    sent: raw.sent === true,
+    date: isoDate(raw.date),
+    status: oneOf(raw.status, APP_STATUSES, APP_STATUSES[0].id),
+    reason: cleanText(raw.reason),
+  };
+}
+
+function sanitizeActivity(list) {
+  if (!Array.isArray(list)) return [];
+  return list.slice(0, MAX_ACTIVITY).map((a) => {
+    const raw = a && typeof a === "object" ? a : {};
+    return {
+      date: isoDate(raw.date),
+      subject: cleanText(raw.subject, 300),
+      summary: cleanText(raw.summary),
+      source: cleanText(raw.source, 40),
+    };
+  });
+}
+
+function sanitizeContact(c) {
+  const raw = c && typeof c === "object" ? c : {};
+  const channels = Array.isArray(raw.channels) ? raw.channels : [];
+  return {
+    id: cleanText(raw.id, 100) || uid(),
+    name: cleanText(raw.name, 200),
+    email: cleanText(raw.email, 320),
+    company: cleanText(raw.company, 200),
+    role: cleanText(raw.role, 200),
+    channels: CHANNELS.filter((x) => channels.includes(x.id)).map((x) => x.id),
+    stage: oneOf(raw.stage, STAGES, STAGES[0].id),
+    meetingAt: isoDate(raw.meetingAt),
+    lastContact: isoDate(raw.lastContact),
+    nextFollowUp: isoDate(raw.nextFollowUp),
+    reminder: oneOf(raw.reminder, REMINDERS, REMINDERS[0].id),
+    resume: sanitizeResume(raw.resume),
+    activity: sanitizeActivity(raw.activity),
+    notes: cleanText(raw.notes, MAX_NOTES),
+  };
+}
+
+function sanitizeContacts(list) {
+  if (!Array.isArray(list)) return [];
+  return list.slice(0, MAX_CONTACTS).map(sanitizeContact);
+}
+
+function sanitizeSuggestion(s) {
+  const raw = s && typeof s === "object" ? s : {};
+  const stage = STAGES.some((x) => x.id === raw.suggestedStage) ? raw.suggestedStage : null;
+  return {
+    id: cleanText(raw.id, 100) || uid(),
+    kind: raw.kind === "new_contact" ? "new_contact" : "update",
+    contactId: typeof raw.contactId === "string" ? raw.contactId.slice(0, 100) : null,
+    contactName: cleanText(raw.contactName, 200),
+    emailAddress: cleanText(raw.emailAddress, 320),
+    date: isoDate(raw.date),
+    subject: cleanText(raw.subject, 300),
+    summary: cleanText(raw.summary),
+    suggestedStage: stage,
+  };
+}
+
+function sanitizeSuggestions(list) {
+  if (!Array.isArray(list)) return [];
+  return list.slice(0, MAX_CONTACTS).map(sanitizeSuggestion);
+}
+
+/* ------------------------------------------------------------------ *
  * Google Calendar helpers.
  * ------------------------------------------------------------------ */
 function calDetails(c) {
@@ -533,8 +623,8 @@ export default function NetworkingCRM() {
     // null when the key has never been written (first run).
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      const parsed = raw ? JSON.parse(raw) : null;
-      if (Array.isArray(parsed) && parsed.length) {
+      const parsed = raw ? sanitizeContacts(JSON.parse(raw)) : null;
+      if (parsed && parsed.length) {
         setContacts(parsed);
       } else {
         // First run: preload seed data (it will persist on the next write).
@@ -564,8 +654,7 @@ export default function NetworkingCRM() {
   useEffect(() => {
     try {
       const raw = localStorage.getItem(REVIEW_KEY);
-      const parsed = raw ? JSON.parse(raw) : null;
-      if (Array.isArray(parsed)) setReviewQueue(parsed);
+      if (raw) setReviewQueue(sanitizeSuggestions(JSON.parse(raw)));
     } catch (e) {
       // Ignore a corrupt review cache — it's non-critical, regenerated on next sync.
     }
@@ -705,12 +794,17 @@ export default function NetworkingCRM() {
   const handleImportFile = (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
+    if (file.size > MAX_IMPORT_BYTES) {
+      flash("Import failed — that file is too large to be a contact export");
+      if (importRef.current) importRef.current.value = "";
+      return;
+    }
     const reader = new FileReader();
     reader.onload = () => {
       try {
         const parsed = JSON.parse(String(reader.result));
         if (!Array.isArray(parsed)) throw new Error("not an array");
-        const cleaned = parsed.map((c) => ({ ...emptyContact(), ...c, id: c.id || uid() }));
+        const cleaned = sanitizeContacts(parsed);
         if (
           contacts.length &&
           !window.confirm(`Import ${cleaned.length} contact(s)? This REPLACES your current ${contacts.length}.`)
