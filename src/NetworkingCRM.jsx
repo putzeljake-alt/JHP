@@ -104,9 +104,23 @@ const APP_STATUSES = [
 const appStatusById = (id) => APP_STATUSES.find((s) => s.id === id) || APP_STATUSES[0];
 // Safe accessor — seed/imported contacts predate the resume field.
 const resumeOf = (c) => c.resume || { sent: false, date: "", status: "applied", reason: "" };
+// Safe accessor — imported/legacy contacts may be missing `channels`.
+const channelsOf = (c) => (Array.isArray(c?.channels) ? c.channels : []);
 
 const STORAGE_KEY = "contacts:v1";
 const REVIEW_KEY = "review:v1"; // pending email-based suggestions awaiting approval
+
+/* ------------------------------------------------------------------ *
+ * Diagnostics — every caught error goes through here so nothing is
+ * swallowed without a trace in the console.
+ * ------------------------------------------------------------------ */
+function logError(context, err) {
+  console.error(`[networking-crm] ${context}:`, err);
+}
+function errText(err) {
+  if (err instanceof Error && err.message) return err.message;
+  return String(err ?? "unknown error");
+}
 
 /* ------------------------------------------------------------------ *
  * Stage tint -> static Tailwind classes (kept literal for the JIT).
@@ -133,8 +147,17 @@ function todayISO() {
   const d = new Date();
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
+// True only for a well-formed, real calendar date in "YYYY-MM-DD" form.
+function isISODate(iso) {
+  if (typeof iso !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return false;
+  const [y, m, d] = iso.split("-").map(Number);
+  const date = new Date(y, m - 1, d);
+  return date.getFullYear() === y && date.getMonth() === m - 1 && date.getDate() === d;
+}
+// Returns null for anything that isn't a real date, so callers never get an
+// Invalid Date that silently turns into NaN comparisons downstream.
 function parseLocal(iso) {
-  if (!iso) return null;
+  if (!isISODate(iso)) return null;
   const [y, m, d] = iso.split("-").map(Number);
   return new Date(y, m - 1, d);
 }
@@ -150,16 +173,16 @@ function formatDate(iso) {
 }
 // Follow-up urgency bucket from a date alone.
 function dateStatus(iso) {
-  if (!iso) return "none";
   const d = daysUntil(iso);
+  if (d === null) return "none";
   if (d < 0) return "overdue";
   if (d === 0) return "today";
   if (d <= 7) return "week";
   return "later";
 }
 function relativeFollow(iso) {
-  if (!iso) return "No date";
   const d = daysUntil(iso);
+  if (d === null) return iso ? "Invalid date" : "No date";
   if (d < 0) return `${Math.abs(d)}d overdue`;
   if (d === 0) return "Today";
   if (d === 1) return "Tomorrow";
@@ -206,11 +229,53 @@ function emptyContact() {
 }
 
 /* ------------------------------------------------------------------ *
+ * Import sanitising — a JSON export can be hand-edited or come from an
+ * older version, so each record is validated and unusable ones are
+ * counted rather than silently producing contacts that crash the views.
+ * ------------------------------------------------------------------ */
+function normalizeImported(records) {
+  const contacts = [];
+  let skipped = 0;
+  for (const rec of records) {
+    if (!rec || typeof rec !== "object" || Array.isArray(rec)) {
+      skipped++;
+      continue;
+    }
+    const str = (v) => (typeof v === "string" ? v : "");
+    const date = (v) => (isISODate(v) ? v : "");
+    const name = str(rec.name).trim();
+    if (!name) {
+      skipped++;
+      continue;
+    }
+    contacts.push({
+      ...emptyContact(),
+      ...rec,
+      id: str(rec.id) || uid(),
+      name,
+      email: str(rec.email),
+      company: str(rec.company),
+      role: str(rec.role),
+      notes: str(rec.notes),
+      channels: channelsOf(rec).filter((id) => CHANNELS.some((ch) => ch.id === id)),
+      stage: STAGES.some((s) => s.id === rec.stage) ? rec.stage : STAGES[0].id,
+      reminder: REMINDERS.some((r) => r.id === rec.reminder) ? rec.reminder : "7am",
+      meetingAt: date(rec.meetingAt),
+      lastContact: date(rec.lastContact),
+      nextFollowUp: date(rec.nextFollowUp),
+      activity: Array.isArray(rec.activity) ? rec.activity : [],
+      resume: rec.resume && typeof rec.resume === "object" ? { ...emptyContact().resume, ...rec.resume } : emptyContact().resume,
+    });
+  }
+  return { contacts, skipped };
+}
+
+/* ------------------------------------------------------------------ *
  * Google Calendar helpers.
  * ------------------------------------------------------------------ */
 function calDetails(c) {
   const parts = [`Stage: ${stageById(c.stage).label}`];
-  const chans = CHANNELS.filter((x) => c.channels.includes(x.id)).map((x) => x.label);
+  const chans = CHANNELS.filter((x) => channelsOf(c).includes(x.id)).map((x) => x.label);
   if (chans.length) parts.push(`Channels: ${chans.join(", ")}`);
   if (c.lastContact) parts.push(`Last contact: ${formatDate(c.lastContact)}`);
   if (c.notes) parts.push("", c.notes);
@@ -220,16 +285,19 @@ function calTitle(c) {
   return `Follow up: ${c.name}${c.company ? ` (${c.company})` : ""}`;
 }
 function basicDate(iso) {
+  if (!isISODate(iso)) throw new Error(`invalid date "${iso}"`);
   return iso.replace(/-/g, "");
 }
 function nextDayBasic(iso) {
   const d = parseLocal(iso);
+  if (!d) throw new Error(`invalid date "${iso}"`);
   d.setDate(d.getDate() + 1);
   return `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}`;
 }
 // Pre-filled Google Calendar event (all-day; end date is exclusive).
+// Returns null (no link) rather than throwing when the stored date is unusable.
 function gcalUrl(c) {
-  if (!c.nextFollowUp) return null;
+  if (!isISODate(c.nextFollowUp)) return null;
   const params = new URLSearchParams({
     action: "TEMPLATE",
     text: calTitle(c),
@@ -256,7 +324,7 @@ function icsStamp() {
   )}${pad(d.getUTCMinutes())}${pad(d.getUTCSeconds())}Z`;
 }
 function buildICS(contacts) {
-  const dated = contacts.filter((c) => c.nextFollowUp);
+  const dated = contacts.filter((c) => isISODate(c.nextFollowUp));
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -293,16 +361,20 @@ function buildICS(contacts) {
   return lines.join("\r\n");
 }
 
+// Throws on failure so callers can report it; the temporary anchor and the
+// object URL are always cleaned up, even when the click is blocked.
 function downloadFile(name, content, type) {
-  const blob = new Blob([content], { type });
-  const url = URL.createObjectURL(blob);
+  const url = URL.createObjectURL(new Blob([content], { type }));
   const a = document.createElement("a");
-  a.href = url;
-  a.download = name;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  URL.revokeObjectURL(url);
+  try {
+    a.href = url;
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+  } finally {
+    a.remove();
+    URL.revokeObjectURL(url);
+  }
 }
 
 /* ------------------------------------------------------------------ *
@@ -474,16 +546,21 @@ function taskText(c) {
 }
 function GTasksLink({ contact, compact }) {
   const [copied, setCopied] = useState(false);
+  const [failed, setFailed] = useState(false);
   if (!contact.nextFollowUp) return null;
 
   const handle = async (e) => {
     e.stopPropagation();
     try {
-      await navigator.clipboard?.writeText(taskText(contact));
+      if (!navigator.clipboard) throw new Error("clipboard API unavailable");
+      await navigator.clipboard.writeText(taskText(contact));
       setCopied(true);
       window.setTimeout(() => setCopied(false), 1800);
-    } catch {
+    } catch (err) {
       // Clipboard may be blocked; still open Tasks so the user can type it.
+      logError("copying the task text to the clipboard", err);
+      setFailed(true);
+      window.setTimeout(() => setFailed(false), 3200);
     }
     window.open(GTASKS_URL, "_blank", "noreferrer");
   };
@@ -492,10 +569,16 @@ function GTasksLink({ contact, compact }) {
     return (
       <button
         onClick={handle}
-        title="Copy task & open Google Tasks"
+        title={failed ? "Copy blocked — type the task in Google Tasks" : "Copy task & open Google Tasks"}
         className="inline-flex h-7 w-7 items-center justify-center rounded-md text-slate-400 transition hover:bg-slate-100 hover:text-slate-700"
       >
-        {copied ? <Check size={15} className="text-emerald-500" /> : <ListPlus size={15} />}
+        {failed ? (
+          <CircleAlert size={15} className="text-amber-500" />
+        ) : copied ? (
+          <Check size={15} className="text-emerald-500" />
+        ) : (
+          <ListPlus size={15} />
+        )}
       </button>
     );
   }
@@ -504,8 +587,14 @@ function GTasksLink({ contact, compact }) {
       onClick={handle}
       className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:border-slate-300 hover:bg-slate-50"
     >
-      {copied ? <Check size={15} className="text-emerald-500" /> : <ListPlus size={15} />}
-      {copied ? "Copied — paste in Tasks" : "Add to Google Tasks"}
+      {failed ? (
+        <CircleAlert size={15} className="text-amber-500" />
+      ) : copied ? (
+        <Check size={15} className="text-emerald-500" />
+      ) : (
+        <ListPlus size={15} />
+      )}
+      {failed ? "Copy blocked — type it in Tasks" : copied ? "Copied — paste in Tasks" : "Add to Google Tasks"}
     </button>
   );
 }
@@ -517,6 +606,7 @@ export default function NetworkingCRM() {
   const [contacts, setContacts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [storageError, setStorageError] = useState("");
+  const [reviewError, setReviewError] = useState("");
   const [view, setView] = useState("dashboard");
 
   const [editing, setEditing] = useState(null); // contact object being added/edited
@@ -526,6 +616,9 @@ export default function NetworkingCRM() {
   const [reviewQueue, setReviewQueue] = useState([]); // pending email suggestions
 
   const importRef = useRef(null);
+  // Keeps a load-time warning visible past the first persist (which happens
+  // immediately after mount and would otherwise clear the banner).
+  const loadedCleanly = useRef(false);
 
   /* ---------------- load on mount ---------------- */
   useEffect(() => {
@@ -535,14 +628,23 @@ export default function NetworkingCRM() {
       const raw = localStorage.getItem(STORAGE_KEY);
       const parsed = raw ? JSON.parse(raw) : null;
       if (Array.isArray(parsed) && parsed.length) {
-        setContacts(parsed);
+        // Stored data can be hand-edited or written by an older version, so it
+        // gets the same validation as an import instead of being trusted.
+        const { contacts: stored, skipped } = normalizeImported(parsed);
+        if (!stored.length) throw new Error(`all ${parsed.length} saved record(s) were unreadable`);
+        if (skipped) {
+          logError("loading saved contacts", new Error(`skipped ${skipped} unreadable record(s)`));
+          setStorageError(`Skipped ${skipped} unreadable saved record(s) — the rest loaded normally.`);
+        }
+        setContacts(stored);
       } else {
         // First run: preload seed data (it will persist on the next write).
         setContacts(SEED);
       }
     } catch (e) {
       // Corrupt JSON (or storage unavailable) — fall back to the seed list.
-      setStorageError("Couldn't read saved data — starting from the seed list.");
+      logError(`reading "${STORAGE_KEY}" from localStorage`, e);
+      setStorageError(`Couldn't read saved data (${errText(e)}) — starting from the seed list.`);
       setContacts(SEED);
     } finally {
       setLoading(false);
@@ -554,9 +656,11 @@ export default function NetworkingCRM() {
     if (loading) return;
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(contacts));
-      setStorageError("");
+      if (loadedCleanly.current) setStorageError("");
+      loadedCleanly.current = true;
     } catch (e) {
-      setStorageError("Couldn't save your last change — export a JSON backup to be safe.");
+      logError(`writing "${STORAGE_KEY}" to localStorage`, e);
+      setStorageError(`Couldn't save your last change (${errText(e)}) — export a JSON backup to be safe.`);
     }
   }, [contacts, loading]);
 
@@ -567,15 +671,20 @@ export default function NetworkingCRM() {
       const parsed = raw ? JSON.parse(raw) : null;
       if (Array.isArray(parsed)) setReviewQueue(parsed);
     } catch (e) {
-      // Ignore a corrupt review cache — it's non-critical, regenerated on next sync.
+      // A corrupt review cache is non-critical (it's regenerated on the next
+      // sync), but it still gets logged and surfaced rather than ignored.
+      logError(`reading "${REVIEW_KEY}" from localStorage`, e);
+      setReviewError(`Couldn't read pending review suggestions (${errText(e)}) — the queue starts empty.`);
     }
   }, []);
   useEffect(() => {
     if (loading) return;
     try {
       localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewQueue));
+      setReviewError("");
     } catch (e) {
-      /* non-critical */
+      logError(`writing "${REVIEW_KEY}" to localStorage`, e);
+      setReviewError(`Couldn't save the review queue (${errText(e)}) — pending suggestions may be lost on reload.`);
     }
   }, [reviewQueue, loading]);
 
@@ -616,14 +725,23 @@ export default function NetworkingCRM() {
   // last-contacted, optionally change stage. Never fires until the user clicks.
   const applyUpdate = useCallback(
     ({ id, contactId, date, subject, summary, stage }) => {
+      let applied = false;
       setContacts((prev) =>
         prev.map((c) => {
           if (c.id !== contactId) return c;
+          applied = true;
           const activity = [...(c.activity || []), { date, summary, subject, source: "gmail" }];
           const lastContact = !c.lastContact || date > c.lastContact ? date : c.lastContact;
           return { ...c, activity, lastContact, ...(stage ? { stage } : {}) };
         })
       );
+      // The suggestion's contact can be gone (deleted, or wiped by a reset);
+      // keep the suggestion visible instead of reporting a phantom success.
+      if (!applied) {
+        logError("applying a review suggestion", new Error(`no contact with id "${contactId}"`));
+        flash("That contact no longer exists — nothing was applied");
+        return;
+      }
       setReviewQueue((q) => q.filter((s) => s.id !== id));
       flash("Update applied to contact");
     },
@@ -684,12 +802,13 @@ export default function NetworkingCRM() {
       downloadFile(`networking-crm-${todayISO()}.json`, JSON.stringify(contacts, null, 2), "application/json");
       flash("JSON backup exported");
     } catch (e) {
-      flash("Export failed");
+      logError("exporting contacts as JSON", e);
+      flash(`Export failed — ${errText(e)}`);
     }
   };
 
   const handleExportICS = () => {
-    const dated = contacts.filter((c) => c.nextFollowUp).length;
+    const dated = contacts.filter((c) => isISODate(c.nextFollowUp)).length;
     if (!dated) {
       flash("No follow-up dates to export yet");
       return;
@@ -698,19 +817,25 @@ export default function NetworkingCRM() {
       downloadFile(`networking-followups-${todayISO()}.ics`, buildICS(contacts), "text/calendar");
       flash("Calendar exported — in Google Calendar: Settings → Import & export → Import");
     } catch (e) {
-      flash("Calendar export failed");
+      logError("exporting follow-ups as an .ics calendar", e);
+      flash(`Calendar export failed — ${errText(e)}`);
     }
   };
 
   const handleImportFile = (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
+    // Always clear the input so re-picking the same file fires onChange again.
+    const resetInput = () => {
+      if (importRef.current) importRef.current.value = "";
+    };
     const reader = new FileReader();
     reader.onload = () => {
       try {
         const parsed = JSON.parse(String(reader.result));
-        if (!Array.isArray(parsed)) throw new Error("not an array");
-        const cleaned = parsed.map((c) => ({ ...emptyContact(), ...c, id: c.id || uid() }));
+        if (!Array.isArray(parsed)) throw new Error("the file isn't a JSON array of contacts");
+        const { contacts: cleaned, skipped } = normalizeImported(parsed);
+        if (!cleaned.length) throw new Error("no usable contacts in the file");
         if (
           contacts.length &&
           !window.confirm(`Import ${cleaned.length} contact(s)? This REPLACES your current ${contacts.length}.`)
@@ -718,14 +843,37 @@ export default function NetworkingCRM() {
           return;
         }
         setContacts(cleaned);
-        flash(`Imported ${cleaned.length} contact(s)`);
+        flash(
+          skipped
+            ? `Imported ${cleaned.length} contact(s) — skipped ${skipped} unreadable record(s)`
+            : `Imported ${cleaned.length} contact(s)`
+        );
       } catch (err) {
-        flash("Import failed — that wasn't a valid JSON export");
+        logError(`importing "${file.name}"`, err);
+        flash(`Import failed — ${errText(err)}`);
       } finally {
-        if (importRef.current) importRef.current.value = "";
+        resetInput();
       }
     };
-    reader.readAsText(file);
+    // Read failures (permissions, a file that vanished, a directory) fire
+    // onerror/onabort, never onload — without these the click did nothing.
+    reader.onerror = () => {
+      logError(`reading "${file.name}"`, reader.error);
+      flash(`Couldn't read that file — ${errText(reader.error)}`);
+      resetInput();
+    };
+    reader.onabort = () => {
+      logError(`reading "${file.name}"`, new Error("read aborted"));
+      flash("Import cancelled — the file read was aborted");
+      resetInput();
+    };
+    try {
+      reader.readAsText(file);
+    } catch (err) {
+      logError(`starting the read of "${file.name}"`, err);
+      flash(`Couldn't read that file — ${errText(err)}`);
+      resetInput();
+    }
   };
 
   const handleReset = () => {
@@ -851,11 +999,16 @@ export default function NetworkingCRM() {
         </div>
       </header>
 
-      {storageError && (
-        <div className="mx-auto mt-3 max-w-7xl px-4 sm:px-6">
-          <div className="flex items-center gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-800">
-            <AlertCircle size={16} className="shrink-0" /> {storageError}
-          </div>
+      {(storageError || reviewError) && (
+        <div className="mx-auto mt-3 max-w-7xl space-y-2 px-4 sm:px-6">
+          {[storageError, reviewError].filter(Boolean).map((msg) => (
+            <div
+              key={msg}
+              className="flex items-center gap-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-800"
+            >
+              <AlertCircle size={16} className="shrink-0" /> {msg}
+            </div>
+          ))}
         </div>
       )}
 
@@ -997,7 +1150,10 @@ function Dashboard({ contacts, onMark, onEdit }) {
     const unscheduled = [];
     for (const c of contacts) {
       const iso = c.nextFollowUp;
-      if (!iso) {
+      // A date that isn't a real "YYYY-MM-DD" would compare into the week
+      // range without matching a day bucket, so treat it as unscheduled.
+      if (!isISODate(iso)) {
+        if (iso) logError("bucketing a follow-up date", new Error(`contact "${c.id}" has invalid date "${iso}"`));
         if (stageById(c.stage).active) unscheduled.push(c);
         continue;
       }
@@ -1642,7 +1798,7 @@ function ContactsTable({ contacts, onPatch, onEdit, onRemove }) {
   const rows = useMemo(() => {
     let r = contacts.filter((c) => {
       if (stageFilter !== "all" && c.stage !== stageFilter) return false;
-      if (channelFilter !== "all" && !c.channels.includes(channelFilter)) return false;
+      if (channelFilter !== "all" && !channelsOf(c).includes(channelFilter)) return false;
       if (companyFilter !== "all" && c.company !== companyFilter) return false;
       if (q.trim()) {
         const hay = `${c.name} ${c.company} ${c.role} ${c.notes}`.toLowerCase();
@@ -1883,7 +2039,7 @@ function ContactModal({ initial, isNew, autoFocusField, onClose, onSave, onDelet
   const toggleChannel = (id) =>
     setForm((f) => ({
       ...f,
-      channels: f.channels.includes(id) ? f.channels.filter((x) => x !== id) : [...f.channels, id],
+      channels: channelsOf(f).includes(id) ? channelsOf(f).filter((x) => x !== id) : [...channelsOf(f), id],
     }));
 
   const nameMissing = !form.name.trim();
@@ -1948,7 +2104,7 @@ function ContactModal({ initial, isNew, autoFocusField, onClose, onSave, onDelet
           <Field label="Channels">
             <div className="flex flex-wrap gap-2">
               {CHANNELS.map(({ id, label, Icon }) => {
-                const on = form.channels.includes(id);
+                const on = channelsOf(form).includes(id);
                 return (
                   <button
                     key={id}
