@@ -68,7 +68,7 @@ function Linkedin({ size = 24, strokeWidth = 2, className = "", ...props }) {
 // Each contact belongs to exactly one stage. Order = board column order.
 // `active` = a stage where a missing follow-up date should be FLAGGED
 // (it's a live conversation you owe a next move on).
-const STAGES = [
+export const STAGES = [
   { id: "to_reach_out", label: "To Reach Out", active: false, tint: "slate" },
   { id: "in_conversation", label: "In Conversation", active: true, tint: "blue" },
   { id: "meeting_scheduled", label: "Meeting Scheduled", active: true, tint: "amber" },
@@ -77,7 +77,7 @@ const STAGES = [
   { id: "dormant", label: "Dormant", active: false, tint: "stone" },
 ];
 
-const CHANNELS = [
+export const CHANNELS = [
   { id: "call", label: "Call", Icon: Phone },
   { id: "email", label: "Email", Icon: Mail },
   { id: "whatsapp", label: "WhatsApp", Icon: MessageCircle },
@@ -87,23 +87,23 @@ const CHANNELS = [
 // Calendar reminder presets. `trigger` is the ICS VALARM TRIGGER value;
 // null = no alarm. All-day events start at midnight, so "7am that day"
 // fires 7 hours after the start (PT7H).
-const REMINDERS = [
+export const REMINDERS = [
   { id: "7am", label: "At 7am that day", short: "7am", trigger: "PT7H" },
   { id: "none", label: "No reminder", short: "Off", trigger: null },
 ];
-const reminderById = (id) => REMINDERS.find((r) => r.id === id) || REMINDERS[0];
+export const reminderById = (id) => REMINDERS.find((r) => r.id === id) || REMINDERS[0];
 
 // Application pipeline statuses for contacts you've sent your resume to.
-const APP_STATUSES = [
+export const APP_STATUSES = [
   { id: "applied", label: "Applied", tint: "slate" },
   { id: "interviewing", label: "Interviewing", tint: "blue" },
   { id: "offer", label: "Offer", tint: "emerald" },
   { id: "rejected", label: "Rejected", tint: "stone" },
   { id: "unknown", label: "Unknown", tint: "zinc" },
 ];
-const appStatusById = (id) => APP_STATUSES.find((s) => s.id === id) || APP_STATUSES[0];
+export const appStatusById = (id) => APP_STATUSES.find((s) => s.id === id) || APP_STATUSES[0];
 // Safe accessor — seed/imported contacts predate the resume field.
-const resumeOf = (c) => c.resume || { sent: false, date: "", status: "applied", reason: "" };
+export const resumeOf = (c) => c.resume || { sent: false, date: "", status: "applied", reason: "" };
 
 const STORAGE_KEY = "contacts:v1";
 const REVIEW_KEY = "review:v1"; // pending email-based suggestions awaiting approval
@@ -120,36 +120,36 @@ const TINTS = {
   stone: { dot: "bg-stone-400", chip: "bg-stone-100 text-stone-600 ring-stone-200", col: "border-stone-300" },
   zinc: { dot: "bg-zinc-400", chip: "bg-zinc-50 text-zinc-500 ring-zinc-200 border-dashed", col: "border-zinc-300" },
 };
-const stageById = (id) => STAGES.find((s) => s.id === id) || STAGES[0];
-const tintOf = (id) => TINTS[stageById(id).tint] || TINTS.slate;
+export const stageById = (id) => STAGES.find((s) => s.id === id) || STAGES[0];
+export const tintOf = (id) => TINTS[stageById(id).tint] || TINTS.slate;
 
 /* ------------------------------------------------------------------ *
  * Date helpers — dates stored as local "YYYY-MM-DD" strings.
  * ------------------------------------------------------------------ */
-function pad(n) {
+export function pad(n) {
   return String(n).padStart(2, "0");
 }
-function todayISO() {
+export function todayISO() {
   const d = new Date();
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
-function parseLocal(iso) {
+export function parseLocal(iso) {
   if (!iso) return null;
   const [y, m, d] = iso.split("-").map(Number);
   return new Date(y, m - 1, d);
 }
-function daysUntil(iso) {
+export function daysUntil(iso) {
   const target = parseLocal(iso);
   if (!target) return null;
   return Math.round((target - parseLocal(todayISO())) / 86400000);
 }
-function formatDate(iso) {
+export function formatDate(iso) {
   const d = parseLocal(iso);
   if (!d) return "—";
   return d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 }
 // Follow-up urgency bucket from a date alone.
-function dateStatus(iso) {
+export function dateStatus(iso) {
   if (!iso) return "none";
   const d = daysUntil(iso);
   if (d < 0) return "overdue";
@@ -157,7 +157,7 @@ function dateStatus(iso) {
   if (d <= 7) return "week";
   return "later";
 }
-function relativeFollow(iso) {
+export function relativeFollow(iso) {
   if (!iso) return "No date";
   const d = daysUntil(iso);
   if (d < 0) return `${Math.abs(d)}d overdue`;
@@ -167,26 +167,26 @@ function relativeFollow(iso) {
 }
 
 // Local "YYYY-MM-DD" from a Date.
-function isoOf(d) {
+export function isoOf(d) {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 // Monday of the week containing `date` (week runs Mon–Sun).
-function mondayOf(date) {
+export function mondayOf(date) {
   const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
   const dow = (d.getDay() + 6) % 7; // 0 = Monday … 6 = Sunday
   d.setDate(d.getDate() - dow);
   return d;
 }
-function addDays(date, n) {
+export function addDays(date, n) {
   const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
   d.setDate(d.getDate() + n);
   return d;
 }
 const DOW_LABELS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-const uid = () => `c_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+export const uid = () => `c_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
 
-function emptyContact() {
+export function emptyContact() {
   return {
     id: uid(),
     name: "",
@@ -208,7 +208,7 @@ function emptyContact() {
 /* ------------------------------------------------------------------ *
  * Google Calendar helpers.
  * ------------------------------------------------------------------ */
-function calDetails(c) {
+export function calDetails(c) {
   const parts = [`Stage: ${stageById(c.stage).label}`];
   const chans = CHANNELS.filter((x) => c.channels.includes(x.id)).map((x) => x.label);
   if (chans.length) parts.push(`Channels: ${chans.join(", ")}`);
@@ -216,19 +216,19 @@ function calDetails(c) {
   if (c.notes) parts.push("", c.notes);
   return parts.join("\n");
 }
-function calTitle(c) {
+export function calTitle(c) {
   return `Follow up: ${c.name}${c.company ? ` (${c.company})` : ""}`;
 }
-function basicDate(iso) {
+export function basicDate(iso) {
   return iso.replace(/-/g, "");
 }
-function nextDayBasic(iso) {
+export function nextDayBasic(iso) {
   const d = parseLocal(iso);
   d.setDate(d.getDate() + 1);
   return `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}`;
 }
 // Pre-filled Google Calendar event (all-day; end date is exclusive).
-function gcalUrl(c) {
+export function gcalUrl(c) {
   if (!c.nextFollowUp) return null;
   const params = new URLSearchParams({
     action: "TEMPLATE",
@@ -242,7 +242,7 @@ function gcalUrl(c) {
 /* ------------------------------------------------------------------ *
  * ICS (VCALENDAR) export — one VEVENT per dated contact, stable UID.
  * ------------------------------------------------------------------ */
-function icsEscape(s = "") {
+export function icsEscape(s = "") {
   return String(s)
     .replace(/\\/g, "\\\\")
     .replace(/;/g, "\\;")
@@ -255,7 +255,7 @@ function icsStamp() {
     d.getUTCHours()
   )}${pad(d.getUTCMinutes())}${pad(d.getUTCSeconds())}Z`;
 }
-function buildICS(contacts) {
+export function buildICS(contacts) {
   const dated = contacts.filter((c) => c.nextFollowUp);
   const lines = [
     "BEGIN:VCALENDAR",
@@ -324,7 +324,7 @@ function seedContact(id, name, stage, extra = {}) {
     ...extra,
   };
 }
-const SEED = [
+export const SEED = [
   // To Reach Out
   seedContact("larry_bernstein", "Larry Bernstein", "to_reach_out"),
   seedContact("russ_miron", "Russ Miron", "to_reach_out"),
@@ -380,7 +380,7 @@ const SEED = [
 /* ------------------------------------------------------------------ *
  * Small presentational pieces.
  * ------------------------------------------------------------------ */
-function ChannelIcons({ channels = [], size = 14 }) {
+export function ChannelIcons({ channels = [], size = 14 }) {
   if (!channels.length) return <span className="text-xs text-slate-300">—</span>;
   return (
     <span className="inline-flex items-center gap-1">
@@ -397,7 +397,7 @@ function ChannelIcons({ channels = [], size = 14 }) {
   );
 }
 
-function StageChip({ stage }) {
+export function StageChip({ stage }) {
   const s = stageById(stage);
   const t = TINTS[s.tint];
   return (
@@ -408,7 +408,7 @@ function StageChip({ stage }) {
   );
 }
 
-function AppStatusChip({ status }) {
+export function AppStatusChip({ status }) {
   const s = appStatusById(status);
   const t = TINTS[s.tint];
   return (
@@ -427,7 +427,7 @@ const STATUS_STYLES = {
   later: "bg-slate-50 text-slate-600 ring-slate-200",
   none: "bg-slate-50 text-slate-400 ring-slate-200",
 };
-function FollowChip({ iso }) {
+export function FollowChip({ iso }) {
   const status = dateStatus(iso);
   return (
     <span className={`inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-xs font-medium ring-1 ${STATUS_STYLES[status]}`}>
@@ -437,7 +437,7 @@ function FollowChip({ iso }) {
   );
 }
 
-function GCalLink({ contact, compact }) {
+export function GCalLink({ contact, compact }) {
   const url = gcalUrl(contact);
   if (!url) return null;
   if (compact) {
@@ -469,10 +469,10 @@ function GCalLink({ contact, compact }) {
 // Google Tasks has no prefilled-task URL or .ics path, so this copies the
 // task text to the clipboard and opens Google Tasks for a quick paste.
 const GTASKS_URL = "https://tasks.google.com/tasks/";
-function taskText(c) {
+export function taskText(c) {
   return c.nextFollowUp ? `${calTitle(c)} — by ${formatDate(c.nextFollowUp)}` : calTitle(c);
 }
-function GTasksLink({ contact, compact }) {
+export function GTasksLink({ contact, compact }) {
   const [copied, setCopied] = useState(false);
   if (!contact.nextFollowUp) return null;
 
@@ -979,7 +979,7 @@ function FirstRunEmpty({ onAdd }) {
 /* ================================================================== *
  * View 1 — Weekly agenda
  * ================================================================== */
-function Dashboard({ contacts, onMark, onEdit }) {
+export function Dashboard({ contacts, onMark, onEdit }) {
   // Offset in weeks from the current week (0 = this week).
   const [weekOffset, setWeekOffset] = useState(0);
 
@@ -1247,7 +1247,7 @@ function FollowRow({ c, border, onMark, onEdit, needsDate }) {
 /* ================================================================== *
  * View 2 — Pipeline board (drag + drop)
  * ================================================================== */
-function Board({ contacts, onMove, onEdit }) {
+export function Board({ contacts, onMove, onEdit }) {
   const [dragId, setDragId] = useState(null);
   const [overStage, setOverStage] = useState(null);
 
@@ -1349,7 +1349,7 @@ function Board({ contacts, onMove, onEdit }) {
 /* ================================================================== *
  * View — Resume sent tracker
  * ================================================================== */
-function ResumeView({ contacts, onPatch, onEdit }) {
+export function ResumeView({ contacts, onPatch, onEdit }) {
   const sent = useMemo(() => contacts.filter((c) => resumeOf(c).sent), [contacts]);
 
   // Group by status, preserving APP_STATUSES order; sort each by date desc.
@@ -1465,7 +1465,7 @@ function ResumeView({ contacts, onPatch, onEdit }) {
 /* ================================================================== *
  * View — Review inbox (email-based suggestions awaiting approval)
  * ================================================================== */
-function ReviewView({ queue, onApply, onDismiss, onAddContact, onAddTest }) {
+export function ReviewView({ queue, onApply, onDismiss, onAddContact, onAddTest }) {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -1627,7 +1627,7 @@ function SuggestionCard({ s, onApply, onDismiss, onAddContact }) {
 /* ================================================================== *
  * View 3 — All contacts table
  * ================================================================== */
-function ContactsTable({ contacts, onPatch, onEdit, onRemove }) {
+export function ContactsTable({ contacts, onPatch, onEdit, onRemove }) {
   const [q, setQ] = useState("");
   const [stageFilter, setStageFilter] = useState("all");
   const [channelFilter, setChannelFilter] = useState("all");
@@ -1827,7 +1827,7 @@ function Select({ value, onChange, children }) {
 }
 
 // click-to-edit text cell
-function InlineText({ value, onCommit, className = "", placeholder = "" }) {
+export function InlineText({ value, onCommit, className = "", placeholder = "" }) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(value);
   useEffect(() => setDraft(value), [value]);
@@ -1867,7 +1867,7 @@ function InlineText({ value, onCommit, className = "", placeholder = "" }) {
 /* ================================================================== *
  * Add / Edit modal
  * ================================================================== */
-function ContactModal({ initial, isNew, autoFocusField, onClose, onSave, onDelete }) {
+export function ContactModal({ initial, isNew, autoFocusField, onClose, onSave, onDelete }) {
   const [form, setForm] = useState(initial);
   const nameRef = useRef(null);
   const nextRef = useRef(null);
@@ -2161,7 +2161,7 @@ const inputCls = (error) =>
 /* ------------------------------------------------------------------ *
  * Confirm dialog + overlay primitive
  * ------------------------------------------------------------------ */
-function ConfirmDialog({ title, body, confirmLabel, onCancel, onConfirm }) {
+export function ConfirmDialog({ title, body, confirmLabel, onCancel, onConfirm }) {
   return (
     <Overlay onClose={onCancel}>
       <div className="my-auto w-full max-w-sm rounded-2xl bg-white shadow-xl">
