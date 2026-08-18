@@ -1,0 +1,1398 @@
+{
+  "generatedAt": "2026-08-18",
+  "window": {
+    "from": "2026-06-01",
+    "to": "2026-08-18"
+  },
+  "note": "Seed roster from initial discovery scan. Calendar: complete for window. Gmail: page 1 of ~5 (~50 of ~201 sent threads). Phase 1 of crm/PLAN.md completes the census.",
+  "counts": {
+    "people": 83
+  },
+  "people": [
+    {
+      "email": "aaron@kineticavc.com",
+      "name": null,
+      "orgHint": "kineticavc.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-17",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Zoom :Aaron <> Jake Putzel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "adi.yehoshua@luxcapital.com",
+      "name": null,
+      "orgHint": "luxcapital.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "evidence": [
+        "2026-06-25: event \"Adi <> Jake\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "alex@craftflow.com",
+      "name": null,
+      "orgHint": "craftflow.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-08-04: event \"Team Dinner\"",
+        "2026-07-24: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "alfonso@meow.com",
+      "name": null,
+      "orgHint": "meow.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-01",
+      "lastSeen": "2026-07-06",
+      "evidence": [
+        "2026-07-06: event \"Quick chat (Jake Putzel)\"",
+        "2026-07-01: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "aliceindiacook@outlook.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-27",
+      "lastSeen": "2026-07-27",
+      "evidence": [
+        "2026-07-27: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "amitimeetingroom@amiti.vc",
+      "name": "Amiti Conference Room",
+      "orgHint": "amiti.vc",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-02",
+      "lastSeen": "2026-06-02",
+      "evidence": [
+        "2026-06-02: event \"F2F : Jake x Ben \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "arg@gerchen.com",
+      "name": "Adam Gerchen",
+      "orgHint": "gerchen.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-07",
+      "lastSeen": "2026-07-14",
+      "evidence": [
+        "2026-07-14: event \"(9:00am CT) CALL: Jake Putzel and Adam Gerchen\"",
+        "2026-07-07: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "ben@amiti.vc",
+      "name": "Ben Rabinowitz | Amiti",
+      "orgHint": "amiti.vc",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-02",
+      "lastSeen": "2026-06-02",
+      "evidence": [
+        "2026-06-02: event \"F2F : Jake x Ben \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "bld@gerchen.com",
+      "name": null,
+      "orgHint": "gerchen.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-08",
+      "evidence": [
+        "2026-07-08: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "boardy@boardy.ai",
+      "name": null,
+      "orgHint": "boardy.ai",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "evidence": [
+        "2026-06-22: event \"Boardy Pro Kickoff\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "bqualls@suntekexteriors.com",
+      "name": null,
+      "orgHint": "suntekexteriors.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-05",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-08-05: event \"Craft <> SunTek Exteriors \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "brendan@sunsethq.com",
+      "name": null,
+      "orgHint": "sunsethq.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "evidence": [
+        "2026-08-07: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "brian.gutman@kellerpostman.com",
+      "name": null,
+      "orgHint": "kellerpostman.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-17",
+      "lastSeen": "2026-07-17",
+      "evidence": [
+        "2026-07-17: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "cam@aaru.com",
+      "name": null,
+      "orgHint": "aaru.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-06",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-06-06: event \"Jake Putzel | Aaru\"",
+        "2026-08-04: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "chaim@cardinals.com",
+      "name": null,
+      "orgHint": "cardinals.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-16",
+      "lastSeen": "2026-08-16",
+      "evidence": [
+        "2026-08-16: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "chana.hancox@ramp.com",
+      "name": null,
+      "orgHint": "ramp.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "evidence": [
+        "2026-07-24: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "charles@craftflow.com",
+      "name": null,
+      "orgHint": "craftflow.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-07-17: event \"Charles <> Jake\"",
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-07-27: event \"Power Hour #1\"",
+        "2026-07-28: event \"Day 2 | Work Trial \"",
+        "2026-07-29: event \"Day 3 | Sprint\"",
+        "2026-08-03: event \"Craft <> Abt \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "chris.demarchi@oracle.com",
+      "name": null,
+      "orgHint": "oracle.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-07-15: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "connolly.bell@bwater.com",
+      "name": null,
+      "orgHint": "bwater.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-11",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "courtney.furton@ramp.com",
+      "name": null,
+      "orgHint": "ramp.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "evidence": [
+        "2026-07-24: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "darren@omni.co",
+      "name": null,
+      "orgHint": "omni.co",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-13",
+      "evidence": [
+        "2026-07-13: event \"Catch Up - Darren / Jake\"",
+        "2026-07-09: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "dave@kulturacap.com",
+      "name": null,
+      "orgHint": "kulturacap.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-22",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Kultura - Overview\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "david.pessis@pointclickcare.com",
+      "name": null,
+      "orgHint": "pointclickcare.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "evidence": [
+        "2026-07-05: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "derek.feinman@nmrk.com",
+      "name": null,
+      "orgHint": "nmrk.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "evidence": [
+        "2026-07-16: event \"Derek <> Jake \"",
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "drmike@mahmd.com",
+      "name": null,
+      "orgHint": "mahmd.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "evidence": [
+        "2026-07-02: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "eitanengelberg@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-12",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-07-12: event \"Eitan <> Jake \"",
+        "2026-07-28: event \"Jake Cheli Eitan\"",
+        "2026-08-05: event \"Eitan <> Jake\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "ensherman@uchicago.edu",
+      "name": null,
+      "orgHint": "uchicago.edu",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-16",
+      "lastSeen": "2026-08-16",
+      "evidence": [
+        "2026-08-16: event \"Breakfast \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "esmith@abt.com",
+      "name": null,
+      "orgHint": "abt.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-03",
+      "lastSeen": "2026-08-03",
+      "evidence": [
+        "2026-08-03: event \"Craft <> Abt \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "ethan@maesongroup.com",
+      "name": null,
+      "orgHint": "maesongroup.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-09",
+      "lastSeen": "2026-08-09",
+      "evidence": [
+        "2026-08-09: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "griffin.seifman@rho.co",
+      "name": null,
+      "orgHint": "rho.co",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-06",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-08-06: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "hallvard.lundevall@oracle.com",
+      "name": null,
+      "orgHint": "oracle.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-07-15: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "hilzfuld@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-07-15: event \"Jake Putzel <> Hillel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "iamjjlister@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-07-11: event \"Jeremy <> Jake\"",
+        "2026-08-06: event \"JJ <> Jake\"",
+        "2026-07-09: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "ilai.goldschmidt@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-22",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Jake <> Ilai\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "isiegel@simpleclosure.com",
+      "name": null,
+      "orgHint": "simpleclosure.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-17",
+      "lastSeen": "2026-08-17",
+      "evidence": [
+        "2026-08-17: event \"Jake Putzel and Ilan Siegel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "jake@craftflow.com",
+      "name": null,
+      "orgHint": "craftflow.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-27",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-07-28: event \"Day 2 | Work Trial \"",
+        "2026-07-29: event \"Day 3 | Sprint\"",
+        "2026-07-29: event \"Trial Wrap Up\"",
+        "2026-08-03: event \"Craft <> Abt \"",
+        "2026-08-04: event \"Team Dinner\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "japple@centergatecapital.com",
+      "name": "Jason Apple",
+      "orgHint": "centergatecapital.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-17",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Jason Apple/Jake Putzel networking call\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "jason.snaider@bwater.com",
+      "name": "Jason Snaider",
+      "orgHint": "bwater.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: event \"Jake Putzel - Connect w/ Bridgewater \"",
+        "2026-08-10: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "jp@avoca.ai",
+      "name": null,
+      "orgHint": "avoca.ai",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-08-13",
+      "lastSeen": "2026-08-13",
+      "evidence": [
+        "2026-08-13: event \"Jay <> Jake\"",
+        "2026-08-13: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "kasey.fausak@bwater.com",
+      "name": null,
+      "orgHint": "bwater.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-08-10",
+      "evidence": [
+        "2026-08-10: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "marie.thurston@pointclickcare.com",
+      "name": null,
+      "orgHint": "pointclickcare.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-07",
+      "lastSeen": "2026-07-07",
+      "evidence": [
+        "2026-07-07: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "matt@withcrew.ai",
+      "name": null,
+      "orgHint": "withcrew.ai",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "evidence": [
+        "2026-08-18: event \"Jake Putzel  and Matthew Roberts\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "maxbyoung@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-27",
+      "evidence": [
+        "2026-07-16: event \"Max <> Jake \"",
+        "2026-07-27: event \"Max <> Jake \"",
+        "2026-07-08: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "me@aleph.vc",
+      "name": "Michael Eisenberg",
+      "orgHint": "aleph.vc",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "evidence": [
+        "2026-06-21: event \"CALL w/ Jake Putzel & Michael Eisenberg\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "michael.tang@rho.co",
+      "name": null,
+      "orgHint": "rho.co",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-08-10",
+      "evidence": [
+        "2026-08-10: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "molly.mcelgunn@ramp.com",
+      "name": null,
+      "orgHint": "ramp.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-06",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-08-06: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "natalie.feller@oracle.com",
+      "name": null,
+      "orgHint": "oracle.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-30",
+      "lastSeen": "2026-07-30",
+      "evidence": [
+        "2026-07-30: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "natalieputzel@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-12",
+      "lastSeen": "2026-08-12",
+      "evidence": [
+        "2026-08-12: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "ned@aaru.com",
+      "name": null,
+      "orgHint": "aaru.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-06",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-06-06: event \"Jake Putzel | Aaru\"",
+        "2026-08-04: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "nir@craftflow.com",
+      "name": null,
+      "orgHint": "craftflow.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-04",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-08-04: event \"Team Dinner\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "noa@kelasys.com",
+      "name": null,
+      "orgHint": "kelasys.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [
+        "2026-06-11: event \"[Rescheduling] Jake & Noa\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "olivia@aaru.com",
+      "name": null,
+      "orgHint": "aaru.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-05",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-08-05: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "omer@raven.io",
+      "name": null,
+      "orgHint": "raven.io",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "evidence": [
+        "2026-06-22: event \"Omer <> Jake \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "omrisac@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-13",
+      "lastSeen": "2026-07-13",
+      "evidence": [
+        "2026-07-13: event \"Omri <> Jake \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "orri@swish.vc",
+      "name": null,
+      "orgHint": "swish.vc",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-06-29",
+      "evidence": [
+        "2026-06-29: event \"Ori <> Jake | Zoom \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "putzel.steve@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "evidence": [
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "putzelp@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "evidence": [
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "rachelimos101@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-28",
+      "lastSeen": "2026-07-28",
+      "evidence": [
+        "2026-07-28: event \"Jake Cheli Eitan\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "raz@amiti.vc",
+      "name": "Raz Naim | Amiti",
+      "orgHint": "amiti.vc",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-02",
+      "lastSeen": "2026-06-02",
+      "evidence": [
+        "2026-06-02: event \"F2F : Jake x Ben \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "rebecca@longjump.vc",
+      "name": null,
+      "orgHint": "longjump.vc",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "evidence": [
+        "2026-07-03: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "rich@kythhire.com",
+      "name": null,
+      "orgHint": "kythhire.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-01",
+      "lastSeen": "2026-07-01",
+      "evidence": [
+        "2026-07-01: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "rtamburelli@benvoliogroup.com",
+      "name": "Rachel Tamburelli",
+      "orgHint": "benvoliogroup.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-15",
+      "lastSeen": "2026-06-15",
+      "evidence": [
+        "2026-06-15: event \"10am-SF meeting with Jake Putzel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "rudisc@stifel.com",
+      "name": null,
+      "orgHint": "stifel.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-08",
+      "evidence": [
+        "2026-07-08: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "russell@truarrow.com",
+      "name": null,
+      "orgHint": "truarrow.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "evidence": [
+        "2026-07-20: event \"Russell <> Jake\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "ryan.kaabi@cognition.ai",
+      "name": null,
+      "orgHint": "cognition.ai",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-11",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "sam@msbdcapital.com",
+      "name": null,
+      "orgHint": "msbdcapital.com",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-26",
+      "lastSeen": "2026-07-26",
+      "evidence": [
+        "2026-07-26: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "sam@ramp.com",
+      "name": null,
+      "orgHint": "ramp.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-17",
+      "lastSeen": "2026-07-23",
+      "evidence": [
+        "2026-07-23: event \"Jake / Sam intro\"",
+        "2026-07-17: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "samuelcro@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-07",
+      "lastSeen": "2026-07-07",
+      "evidence": [
+        "2026-07-07: event \"Lunch\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "sarit@kineticavc.com",
+      "name": null,
+      "orgHint": "kineticavc.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-17",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Zoom :Aaron <> Jake Putzel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "sf@theoryvc.com",
+      "name": null,
+      "orgHint": "theoryvc.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "evidence": [
+        "2026-06-19: event \"Spencer <> Jake\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "sfrankfort@benvoliogroup.com",
+      "name": "Sam Frankfort",
+      "orgHint": "benvoliogroup.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-15",
+      "lastSeen": "2026-06-15",
+      "evidence": [
+        "2026-06-15: event \"10am-SF meeting with Jake Putzel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "shani@kineticavc.com",
+      "name": null,
+      "orgHint": "kineticavc.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-17",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Zoom :Aaron <> Jake Putzel\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "sigal.lewkowicz@ice.com",
+      "name": "Sigal Lewkowicz",
+      "orgHint": "ice.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [
+        "2026-06-11: event \"Alex Albert Connection\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "steve.putzel@focuspartners.com",
+      "name": null,
+      "orgHint": "focuspartners.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Kultura - Overview\"",
+        "2026-07-05: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "svc_recruit_schedule@bwater.com",
+      "name": "svc_recruit_schedule",
+      "orgHint": "bwater.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-12",
+      "lastSeen": "2026-08-12",
+      "evidence": [
+        "2026-08-12: event \"Client Investment Research Associate | JACOB PUTZEL | Initial Connect\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "tal@craftflow.com",
+      "name": null,
+      "orgHint": "craftflow.com",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-07-16: event \"Jake x Tal - Intro\"",
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-07-27: event \"Power Hour #1\"",
+        "2026-07-28: event \"Day 2 | Work Trial \"",
+        "2026-07-29: event \"Day 3 | Sprint\"",
+        "2026-07-29: event \"Trial Wrap Up\""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "talsayag@netvision.net.il",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-13",
+      "lastSeen": "2026-07-13",
+      "evidence": [
+        "2026-07-13: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "teddysbuhl@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "evidence": [
+        "2026-08-18: event \"Breakfast \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "theodore.pasquesi@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Kultura - Overview\"",
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "walker.sosa@johnslyng.com",
+      "name": null,
+      "orgHint": "johnslyng.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-05",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-08-05: event \"Craft <> Walker \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "zeke@202ventures.vc",
+      "name": null,
+      "orgHint": "202ventures.vc",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-19",
+      "lastSeen": "2026-07-30",
+      "evidence": [
+        "2026-07-27: event \"**TBR** Zeke < > Jake coffee\"",
+        "2026-07-30: event \"Jake <> Zeke\"",
+        "2026-07-19: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "zfrankel@gmail.com",
+      "name": null,
+      "orgHint": null,
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-27",
+      "lastSeen": "2026-08-10",
+      "evidence": [
+        "2026-08-03: event \"Zach to call Jake Putzel - 8475584017\"",
+        "2026-08-10: event \"Zach to call Jake Putzel - 8475584017\"",
+        "2026-07-27: email thread (sent-mail scan p.1)"
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    },
+    {
+      "email": "zoom_295nyc_17f_franc_phonebooth@bwater.com",
+      "name": "Zoom_295NYC_17F Franc PhoneBooth",
+      "orgHint": "bwater.com",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-11",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: event \"Jake Putzel - Connect w/ Bridgewater \""
+      ],
+      "portfolio": null,
+      "status": "needs_portfolio",
+      "excludeReason": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "builtAt": "2026-08-18",
+  "count": 1,
+  "people": [
+    {
+      "id": "derek-feinman",
+      "name": "Derek Feinman",
+      "emails": [
+        "derek.feinman@nmrk.com"
+      ],
+      "phone": null,
+      "company": "Newmark",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-16",
+      "last_contact": "2026-07-28",
+      "interaction_count": 8,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "real-estate"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/derek-feinman.md",
+      "hasTimeline": true
+    }
+  ]
+}

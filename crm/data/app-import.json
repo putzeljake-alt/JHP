@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pf_derek-feinman",
+    "name": "Derek Feinman",
+    "email": "derek.feinman@nmrk.com",
+    "company": "Newmark",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-28",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/derek-feinman.md"
+  }
+]
