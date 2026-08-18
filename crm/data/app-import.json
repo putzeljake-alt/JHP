@@ -1,0 +1,2556 @@
+[
+  {
+    "id": "pf_aaron-applebaum",
+    "name": "Aaron Applbaum",
+    "email": "aaron@kineticavc.com",
+    "company": "Kinetica VC",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/aaron-applebaum.md"
+  },
+  {
+    "id": "pf_adam-gerchen",
+    "name": "Adam Gerchen",
+    "email": "arg@gerchen.com",
+    "company": "Gerchen Capital",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-14",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/adam-gerchen.md"
+  },
+  {
+    "id": "pf_adi-yehoshua",
+    "name": "Adi Yehoshua",
+    "email": "adi.yehoshua@luxcapital.com",
+    "company": "Lux Capital",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-25",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/adi-yehoshua.md"
+  },
+  {
+    "id": "pf_alec-litowitz",
+    "name": "Alec Litowitz",
+    "email": "",
+    "company": "Qstar Capital",
+    "role": "",
+    "channels": [],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alec-litowitz.md"
+  },
+  {
+    "id": "pf_alex-craftflow",
+    "name": "Alex",
+    "email": "alex@craftflow.com",
+    "company": "Craftflow",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-04",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alex-craftflow.md"
+  },
+  {
+    "id": "pf_alex-mayers",
+    "name": "Alex Meyer",
+    "email": "alex@sandstone.com",
+    "company": "Sandstone",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-21",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alex-mayers.md"
+  },
+  {
+    "id": "pf_alexis-gauba",
+    "name": "Alexis Gauba",
+    "email": "",
+    "company": "",
+    "role": "",
+    "channels": [],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alexis-gauba.md"
+  },
+  {
+    "id": "pf_alfonso-meow",
+    "name": "Alfonso Alvarez",
+    "email": "alfonso@meow.com",
+    "company": "Meow",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-06",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alfonso-meow.md"
+  },
+  {
+    "id": "pf_alice-india-cook",
+    "name": "Alice India Cook",
+    "email": "aliceindiacook@outlook.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-07-27",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alice-india-cook.md"
+  },
+  {
+    "id": "pf_alyssa-lakeshore",
+    "name": "Alyssa",
+    "email": "alyssa@lakeshorecc.com",
+    "company": "Lakeshore Country Club",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-06-07",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/alyssa-lakeshore.md"
+  },
+  {
+    "id": "pf_b-gerchen",
+    "name": "Beth DeCaluwe",
+    "email": "bld@gerchen.com",
+    "company": "Gerchen Capital",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-07-12",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/b-gerchen.md"
+  },
+  {
+    "id": "pf_b-qualls",
+    "name": "TBD (bqualls@suntekexteriors.com)",
+    "email": "bqualls@suntekexteriors.com",
+    "company": "Suntek Exteriors",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/b-qualls.md"
+  },
+  {
+    "id": "pf_bar-aleph",
+    "name": "Bar Schneidman",
+    "email": "bar@aleph.vc",
+    "company": "Aleph",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-14",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/bar-aleph.md"
+  },
+  {
+    "id": "pf_ben-rabinowitz",
+    "name": "Ben Rabinowitz",
+    "email": "ben@amiti.vc",
+    "company": "Amiti Ventures",
+    "role": "",
+    "channels": [],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-02",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/ben-rabinowitz.md"
+  },
+  {
+    "id": "pf_brendan-bettencourt",
+    "name": "Brendan Bettencourt",
+    "email": "brendan.bettencourt@sandstone.com",
+    "company": "Sandstone",
+    "role": "Sales",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-16",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/brendan-bettencourt.md"
+  },
+  {
+    "id": "pf_brendan-sunset",
+    "name": "Brendan Mahony",
+    "email": "brendan@sunsethq.com",
+    "company": "Sunset",
+    "role": "Founder | CEO",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/brendan-sunset.md"
+  },
+  {
+    "id": "pf_brian-gutman",
+    "name": "Brian Gutman",
+    "email": "brian.gutman@kellerpostman.com",
+    "company": "Keller Postman",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-07-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/brian-gutman.md"
+  },
+  {
+    "id": "pf_cam-fink",
+    "name": "Cam Fink",
+    "email": "cam@aaru.com",
+    "company": "Aaru",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/cam-fink.md"
+  },
+  {
+    "id": "pf_carolina-fain",
+    "name": "Carolina Fain",
+    "email": "carolinafain@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/carolina-fain.md"
+  },
+  {
+    "id": "pf_chana-hancox",
+    "name": "Chana Hancox",
+    "email": "chana.hancox@ramp.com",
+    "company": "Ramp",
+    "role": "Growth @ Ramp (per email signature)",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/chana-hancox.md"
+  },
+  {
+    "id": "pf_charles-craftflow",
+    "name": "Charles Bryson",
+    "email": "charles@craftflow.com",
+    "company": "Craftflow",
+    "role": "Founding Account Executive",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/charles-craftflow.md"
+  },
+  {
+    "id": "pf_chris-demarchi",
+    "name": "Chris DeMarchi",
+    "email": "chris.demarchi@oracle.com",
+    "company": "Oracle",
+    "role": "Regional Director, NetSuite SDR org (per intro email)",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-03",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/chris-demarchi.md"
+  },
+  {
+    "id": "pf_connolly-bell",
+    "name": "Connolly Bell",
+    "email": "connolly.bell@bwater.com",
+    "company": "Bridgewater Associates",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/connolly-bell.md"
+  },
+  {
+    "id": "pf_courtney-furton",
+    "name": "Courtney Furton",
+    "email": "courtney.furton@ramp.com",
+    "company": "Ramp",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-03",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/courtney-furton.md"
+  },
+  {
+    "id": "pf_d-meyer",
+    "name": "Dean",
+    "email": "dmeyer@sequoiacap.com",
+    "company": "Sequoia Capital",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-10",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/d-meyer.md"
+  },
+  {
+    "id": "pf_darren-omni",
+    "name": "Darren Byrne",
+    "email": "darren@omni.co",
+    "company": "Omni",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/darren-omni.md"
+  },
+  {
+    "id": "pf_dave-kultura",
+    "name": "Dave",
+    "email": "dave@kulturacap.com",
+    "company": "Kultura Capital",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-22",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/dave-kultura.md"
+  },
+  {
+    "id": "pf_david-lightspeed",
+    "name": "David",
+    "email": "david@lsvp.com",
+    "company": "Lightspeed",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/david-lightspeed.md"
+  },
+  {
+    "id": "pf_david-pessis",
+    "name": "David Pessis",
+    "email": "david.pessis@pointclickcare.com",
+    "company": "PointClickCare",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-04",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/david-pessis.md"
+  },
+  {
+    "id": "pf_derek-feinman",
+    "name": "Derek Feinman",
+    "email": "derek.feinman@nmrk.com",
+    "company": "Newmark",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-28",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/derek-feinman.md"
+  },
+  {
+    "id": "pf_diane-lakeshore",
+    "name": "Diane Scully",
+    "email": "diane@lakeshorecc.com",
+    "company": "Lakeshore Country Club",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-06-08",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/diane-lakeshore.md"
+  },
+  {
+    "id": "pf_dr-mike",
+    "name": "Dr. Mike (Michael Mahgerefteh, MD)",
+    "email": "drmike@mahmd.com",
+    "company": "MAH MD",
+    "role": "Physician (MD)",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-08-12",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Next: Confirm next appointment slot (openings offered for 8/25 - 9/3 PST)\nPortfolio: crm/people/dr-mike.md"
+  },
+  {
+    "id": "pf_e-smith",
+    "name": "TBD (esmith@abt.com)",
+    "email": "esmith@abt.com",
+    "company": "Abt",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-03",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/e-smith.md"
+  },
+  {
+    "id": "pf_edward-fpi",
+    "name": "Edward",
+    "email": "edward@fpi.co.il",
+    "company": "FPI",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-27",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/edward-fpi.md"
+  },
+  {
+    "id": "pf_eitan-engelberg",
+    "name": "Eitan Engelberg",
+    "email": "eitanengelberg@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/eitan-engelberg.md"
+  },
+  {
+    "id": "pf_eli-nastir",
+    "name": "Eli Nastir",
+    "email": "",
+    "company": "Palantir",
+    "role": "",
+    "channels": [],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/eli-nastir.md"
+  },
+  {
+    "id": "pf_elizabeth-aaru",
+    "name": "Elizabeth Ozemebhoya",
+    "email": "elizabeth@aaru.com",
+    "company": "Aaru",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-01",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/elizabeth-aaru.md"
+  },
+  {
+    "id": "pf_en-sherman",
+    "name": "Eli Sherman",
+    "email": "ensherman@uchicago.edu",
+    "company": "University of Chicago",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-16",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/en-sherman.md"
+  },
+  {
+    "id": "pf_ethan-maeson",
+    "name": "Ethan",
+    "email": "ethan@maesongroup.com",
+    "company": "Maeson Group",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "2026-09-10",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Next: Schedule a call in the Sep 10-15 window Ethan proposed\nPortfolio: crm/people/ethan-maeson.md"
+  },
+  {
+    "id": "pf_griffin-seifman",
+    "name": "Griffin Seifman",
+    "email": "griffin.seifman@rho.co",
+    "company": "Rho",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-08-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/griffin-seifman.md"
+  },
+  {
+    "id": "pf_gtm-limy",
+    "name": "Limy GTM hiring inbox",
+    "email": "gtm@limy.ai",
+    "company": "Limy",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-30",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/gtm-limy.md"
+  },
+  {
+    "id": "pf_h-seal",
+    "name": "Hannah",
+    "email": "h.seal@indexventures.com",
+    "company": "Index Ventures",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/h-seal.md"
+  },
+  {
+    "id": "pf_hallvard-lundevall",
+    "name": "Hallvard Lundevall",
+    "email": "hallvard.lundevall@oracle.com",
+    "company": "Oracle",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-07-15",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/hallvard-lundevall.md"
+  },
+  {
+    "id": "pf_hila-lightspeed",
+    "name": "Hila Chen",
+    "email": "hila@lsvp.com",
+    "company": "Lightspeed",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/hila-lightspeed.md"
+  },
+  {
+    "id": "pf_hillel-fuld",
+    "name": "Hillel Fuld",
+    "email": "hilzfuld@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-15",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/hillel-fuld.md"
+  },
+  {
+    "id": "pf_i-siegel",
+    "name": "Ilan Siegel",
+    "email": "isiegel@simpleclosure.com",
+    "company": "SimpleClosure",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/i-siegel.md"
+  },
+  {
+    "id": "pf_ilai-goldschmidt",
+    "name": "Ilai Goldschmidt",
+    "email": "ilai.goldschmidt@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-22",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/ilai-goldschmidt.md"
+  },
+  {
+    "id": "pf_j-margetta",
+    "name": "Jillian Margetta",
+    "email": "jmargetta@benvoliogroup.com",
+    "company": "Benvolio Group",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-15",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/j-margetta.md"
+  },
+  {
+    "id": "pf_jason-apple",
+    "name": "Jason Apple",
+    "email": "japple@centergatecapital.com",
+    "company": "Centergate Capital",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/jason-apple.md"
+  },
+  {
+    "id": "pf_jason-snaider",
+    "name": "Jason Snaider",
+    "email": "jason.snaider@bwater.com",
+    "company": "Bridgewater Associates",
+    "role": "Director / Talent Acquisition",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/jason-snaider.md"
+  },
+  {
+    "id": "pf_jj-lister",
+    "name": "JJ Lister",
+    "email": "iamjjlister@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-06",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/jj-lister.md"
+  },
+  {
+    "id": "pf_jodi-lakeshore",
+    "name": "Jodi",
+    "email": "jodi@lakeshorecc.com",
+    "company": "Lakeshore Country Club",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-06-07",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/jodi-lakeshore.md"
+  },
+  {
+    "id": "pf_jp-avoca",
+    "name": "Jay",
+    "email": "jp@avoca.ai",
+    "company": "Avoca",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/jp-avoca.md"
+  },
+  {
+    "id": "pf_kasey-fausak",
+    "name": "Kasey Fausak",
+    "email": "kasey.fausak@bwater.com",
+    "company": "Bridgewater Associates",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/kasey-fausak.md"
+  },
+  {
+    "id": "pf_larry-bernstein",
+    "name": "Larry Bernstein",
+    "email": "",
+    "company": "",
+    "role": "",
+    "channels": [],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/larry-bernstein.md"
+  },
+  {
+    "id": "pf_leo-yoshinaga",
+    "name": "Leo Yoshinaga",
+    "email": "leo.yoshinaga@ofbasis.com",
+    "company": "Basis",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-07",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/leo-yoshinaga.md"
+  },
+  {
+    "id": "pf_liran-team8",
+    "name": "Liran",
+    "email": "liran@team8.vc",
+    "company": "Team8",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/liran-team8.md"
+  },
+  {
+    "id": "pf_mariana-colicchio",
+    "name": "Mariana Colicchio",
+    "email": "mariana.colicchio@sandstone.com",
+    "company": "Sandstone",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-16",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/mariana-colicchio.md"
+  },
+  {
+    "id": "pf_marie-thurston",
+    "name": "Marie Thurston",
+    "email": "marie.thurston@pointclickcare.com",
+    "company": "PointClickCare",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-04",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/marie-thurston.md"
+  },
+  {
+    "id": "pf_matt-crew",
+    "name": "Matthew Roberts",
+    "email": "matt@withcrew.ai",
+    "company": "Crew",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-18",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Next: 15-minute sync scheduled for 2026-08-18 5:30pm CDT\nPortfolio: crm/people/matt-crew.md"
+  },
+  {
+    "id": "pf_max-young",
+    "name": "Max Young",
+    "email": "maxbyoung@gmail.com",
+    "company": "OuterJoyn",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-27",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/max-young.md"
+  },
+  {
+    "id": "pf_mc-swish",
+    "name": "Mihail Cucurezeanu",
+    "email": "mc@swish.vc",
+    "company": "Swish Ventures",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-10",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/mc-swish.md"
+  },
+  {
+    "id": "pf_michael-eisenberg",
+    "name": "Michael Eisenberg",
+    "email": "me@aleph.vc",
+    "company": "Aleph",
+    "role": "General Partner",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-21",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/michael-eisenberg.md"
+  },
+  {
+    "id": "pf_michael-tang",
+    "name": "Michael Tang",
+    "email": "michael.tang@rho.co",
+    "company": "Rho",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-13",
+    "nextFollowUp": "2026-08-24",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Next: Panel Round with Rho scheduled Mon Aug 24, 2026, 3:30-5:00pm CDT (Zoom)\nPortfolio: crm/people/michael-tang.md"
+  },
+  {
+    "id": "pf_molly-mcelgunn",
+    "name": "Molly McElgunn",
+    "email": "molly.mcelgunn@ramp.com",
+    "company": "Ramp",
+    "role": "Hiring manager, PDR FI (per interview invites)",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-06",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/molly-mcelgunn.md"
+  },
+  {
+    "id": "pf_natalie-feller",
+    "name": "Natalie Feller",
+    "email": "natalie.feller@oracle.com",
+    "company": "Oracle",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-06",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/natalie-feller.md"
+  },
+  {
+    "id": "pf_natalie-putzel",
+    "name": "Natalie Putzel",
+    "email": "natalieputzel@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-08-12",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/natalie-putzel.md"
+  },
+  {
+    "id": "pf_ned-aaru",
+    "name": "Ned Koh",
+    "email": "ned@aaru.com",
+    "company": "Aaru",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/ned-aaru.md"
+  },
+  {
+    "id": "pf_nicole-putzel",
+    "name": "Nicole Putzel",
+    "email": "nicoleputzel@gmail.com",
+    "company": "Putzel Kitchen",
+    "role": "Nutrition Coach / Chef (PN 1 Certified Nutrition Coach, Classically Trained Chef)",
+    "channels": [
+      "email"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-07-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/nicole-putzel.md"
+  },
+  {
+    "id": "pf_nir-craftflow",
+    "name": "Nir",
+    "email": "nir@craftflow.com",
+    "company": "Craftflow",
+    "role": "",
+    "channels": [],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-04",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/nir-craftflow.md"
+  },
+  {
+    "id": "pf_noa-bloch",
+    "name": "Noa Bloch",
+    "email": "noa@kelasys.com",
+    "company": "Kela",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/noa-bloch.md"
+  },
+  {
+    "id": "pf_ofik-ophir",
+    "name": "Ofik Ophir",
+    "email": "",
+    "company": "Dream",
+    "role": "",
+    "channels": [],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/ofik-ophir.md"
+  },
+  {
+    "id": "pf_olivia-aaru",
+    "name": "Olivia",
+    "email": "olivia@aaru.com",
+    "company": "Aaru",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/olivia-aaru.md"
+  },
+  {
+    "id": "pf_olivia-ross",
+    "name": "Olivia Ross",
+    "email": "",
+    "company": "Ramp",
+    "role": "",
+    "channels": [],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/olivia-ross.md"
+  },
+  {
+    "id": "pf_omer-raven",
+    "name": "Omer Yair",
+    "email": "omer@raven.io",
+    "company": "Raven",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-22",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/omer-raven.md"
+  },
+  {
+    "id": "pf_omri-sacajiu",
+    "name": "Omri Isac",
+    "email": "omrisac@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/omri-sacajiu.md"
+  },
+  {
+    "id": "pf_ori-swish",
+    "name": "Orri Striechman",
+    "email": "orri@swish.vc",
+    "company": "Swish Ventures",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-29",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/ori-swish.md"
+  },
+  {
+    "id": "pf_p-gilligan",
+    "name": "Patrick Gilligan",
+    "email": "pgilligan@clearlake.com",
+    "company": "Clearlake Capital",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-18",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/p-gilligan.md"
+  },
+  {
+    "id": "pf_p-putzel",
+    "name": "TBD (putzelp@gmail.com)",
+    "email": "putzelp@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-07-16",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/p-putzel.md"
+  },
+  {
+    "id": "pf_rachel-imos",
+    "name": "TBD (rachelimos101@gmail.com)",
+    "email": "rachelimos101@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-28",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/rachel-imos.md"
+  },
+  {
+    "id": "pf_rachel-tamburelli",
+    "name": "Rachel Tamburelli",
+    "email": "rtamburelli@benvoliogroup.com",
+    "company": "Benvolio Group",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-15",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/rachel-tamburelli.md"
+  },
+  {
+    "id": "pf_raz-naim",
+    "name": "Raz Naim",
+    "email": "raz@amiti.vc",
+    "company": "Amiti Ventures",
+    "role": "",
+    "channels": [],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-02",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/raz-naim.md"
+  },
+  {
+    "id": "pf_rebecca-longjump",
+    "name": "Rebecca Kahnweiler",
+    "email": "rebecca@longjump.vc",
+    "company": "Long Jump",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-07-07",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/rebecca-longjump.md"
+  },
+  {
+    "id": "pf_rich-kyth",
+    "name": "Rich Saylor",
+    "email": "rich@kythhire.com",
+    "company": "Kyth",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-01",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/rich-kyth.md"
+  },
+  {
+    "id": "pf_rudi-stifel",
+    "name": "Carrie Rudis",
+    "email": "rudisc@stifel.com",
+    "company": "Stifel",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-07-09",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/rudi-stifel.md"
+  },
+  {
+    "id": "pf_russ-miron",
+    "name": "Russ Miron",
+    "email": "",
+    "company": "",
+    "role": "",
+    "channels": [],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/russ-miron.md"
+  },
+  {
+    "id": "pf_russell-yue",
+    "name": "Russell Yue",
+    "email": "russell@truarrow.com",
+    "company": "TruArrow",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-20",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/russell-yue.md"
+  },
+  {
+    "id": "pf_ryan-kaabi",
+    "name": "Ryan Kaabi",
+    "email": "ryan.kaabi@cognition.ai",
+    "company": "Cognition",
+    "role": "Talent Acquisition",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/ryan-kaabi.md"
+  },
+  {
+    "id": "pf_sam-frankfort",
+    "name": "Sam Frankfort",
+    "email": "sfrankfort@benvoliogroup.com",
+    "company": "Benvolio Group",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-15",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sam-frankfort.md"
+  },
+  {
+    "id": "pf_sam-msbd",
+    "name": "Sam",
+    "email": "sam@msbdcapital.com",
+    "company": "MSBD Capital",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-07-26",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sam-msbd.md"
+  },
+  {
+    "id": "pf_sam-ramp",
+    "name": "Sam Buck",
+    "email": "sam@ramp.com",
+    "company": "Ramp",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-07-27",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sam-ramp.md"
+  },
+  {
+    "id": "pf_samuel-cro",
+    "name": "Sam Cronin",
+    "email": "samuelcro@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-24",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/samuel-cro.md"
+  },
+  {
+    "id": "pf_sara-aaru",
+    "name": "Sara Ganz",
+    "email": "sara@aaru.com",
+    "company": "Aaru",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-05-31",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sara-aaru.md"
+  },
+  {
+    "id": "pf_sarit-kinetica",
+    "name": "Sarit Konikov",
+    "email": "sarit@kineticavc.com",
+    "company": "Kinetica VC",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sarit-kinetica.md"
+  },
+  {
+    "id": "pf_sarit-team8",
+    "name": "Sarit",
+    "email": "sarit@team8.vc",
+    "company": "Team8",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sarit-team8.md"
+  },
+  {
+    "id": "pf_shani-kinetica",
+    "name": "Shani Yogev",
+    "email": "shani@kineticavc.com",
+    "company": "Kinetica VC",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-17",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/shani-kinetica.md"
+  },
+  {
+    "id": "pf_sigal-lewkowicz",
+    "name": "Sigal Lewkowicz",
+    "email": "sigal.lewkowicz@ice.com",
+    "company": "ICE",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/sigal-lewkowicz.md"
+  },
+  {
+    "id": "pf_spencer-farrar",
+    "name": "Spencer Farrar",
+    "email": "sf@theoryvc.com",
+    "company": "Theory Ventures",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-06-19",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/spencer-farrar.md"
+  },
+  {
+    "id": "pf_steve-putzel",
+    "name": "Steve Putzel",
+    "email": "putzel.steve@gmail.com",
+    "company": "Focus Partners",
+    "role": "Director, Advisory Leadership Team",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "warm",
+    "meetingAt": "",
+    "lastContact": "2026-08-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/steve-putzel.md"
+  },
+  {
+    "id": "pf_susan-aleph",
+    "name": "Susan Wilner",
+    "email": "susan@aleph.vc",
+    "company": "Aleph",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-15",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/susan-aleph.md"
+  },
+  {
+    "id": "pf_tal-craftflow",
+    "name": "Tal Shub",
+    "email": "tal@craftflow.com",
+    "company": "Craftflow",
+    "role": "Co-founder & CEO",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-07",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/tal-craftflow.md"
+  },
+  {
+    "id": "pf_tal-lightspeed",
+    "name": "Tal",
+    "email": "tal@lsvp.com",
+    "company": "Lightspeed",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "to_reach_out",
+    "meetingAt": "",
+    "lastContact": "2026-06-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/tal-lightspeed.md"
+  },
+  {
+    "id": "pf_teddy-buhl",
+    "name": "Teddy Buhl",
+    "email": "teddysbuhl@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-18",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/teddy-buhl.md"
+  },
+  {
+    "id": "pf_theodore-pasquesi",
+    "name": "Theodore Pasquesi",
+    "email": "theodore.pasquesi@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-11",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/theodore-pasquesi.md"
+  },
+  {
+    "id": "pf_walker-sosa",
+    "name": "Walker Sosa",
+    "email": "walker.sosa@johnslyng.com",
+    "company": "Johns Lyng Group",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-05",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/walker-sosa.md"
+  },
+  {
+    "id": "pf_y-wirzberger",
+    "name": "Yuval Wirzberger",
+    "email": "ywirzberger@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-08-18",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/y-wirzberger.md"
+  },
+  {
+    "id": "pf_yoav-knoll",
+    "name": "Yoav Knoll",
+    "email": "",
+    "company": "Kinetica VC",
+    "role": "",
+    "channels": [],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/yoav-knoll.md"
+  },
+  {
+    "id": "pf_yoni-lightspeed",
+    "name": "Yoni",
+    "email": "yoni@lsvp.com",
+    "company": "Lightspeed",
+    "role": "",
+    "channels": [
+      "email"
+    ],
+    "stage": "in_conversation",
+    "meetingAt": "",
+    "lastContact": "2026-06-13",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/yoni-lightspeed.md"
+  },
+  {
+    "id": "pf_z-frankel",
+    "name": "Zach Frankel",
+    "email": "zfrankel@gmail.com",
+    "company": "",
+    "role": "",
+    "channels": [
+      "email",
+      "call"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-10",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/z-frankel.md"
+  },
+  {
+    "id": "pf_zeke-202ventures",
+    "name": "Zeke Fraint",
+    "email": "zeke@202ventures.vc",
+    "company": "202 Ventures",
+    "role": "Founder & General Partner",
+    "channels": [
+      "email"
+    ],
+    "stage": "met_next_step",
+    "meetingAt": "",
+    "lastContact": "2026-08-02",
+    "nextFollowUp": "",
+    "reminder": "7am",
+    "resume": {
+      "sent": false,
+      "date": "",
+      "status": "applied",
+      "reason": ""
+    },
+    "activity": [],
+    "notes": "Portfolio: crm/people/zeke-202ventures.md"
+  }
+]

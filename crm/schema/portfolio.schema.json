@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "jhp-crm/portfolio.schema.json",
+  "title": "Person Portfolio (frontmatter)",
+  "description": "Validates the YAML-style frontmatter of each crm/people/*.md portfolio. The markdown body below the frontmatter holds the narrative: summary, interaction timeline, asks/commitments, notes.",
+  "type": "object",
+  "required": ["id", "name", "emails", "category", "first_contact", "last_contact", "stage", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Kebab-case slug, matches the filename (crm/people/<id>.md). Never changes once created."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full name. Use 'TBD (email@domain)' only while unresolved."
+    },
+    "emails": {
+      "type": "array",
+      "items": { "type": "string", "format": "email" },
+      "description": "All known addresses for this person (may be empty while unresolved). Aliases merge here — one person, one portfolio."
+    },
+    "phone": { "type": ["string", "null"] },
+    "company": { "type": ["string", "null"] },
+    "role": { "type": ["string", "null"] },
+    "location": { "type": ["string", "null"] },
+    "linkedin": { "type": ["string", "null"], "description": "Profile URL." },
+    "category": {
+      "enum": ["professional", "personal", "family", "service", "other"],
+      "description": "professional = networking/job-search/business; service = doctors, vendors, support."
+    },
+    "how_met": { "type": ["string", "null"], "description": "Origin story: intro, cold outreach, event, existing relationship." },
+    "intro_by": { "type": ["string", "null"], "description": "Portfolio id or name of the person who made the introduction." },
+    "first_contact": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "last_contact": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "interaction_count": { "type": ["integer", "null"], "minimum": 0, "description": "Total logged interactions in the window (emails sent/received + meetings)." },
+    "channels": {
+      "type": "array",
+      "items": { "enum": ["email", "call", "whatsapp", "linkedin", "in_person"] },
+      "description": "Channels actually used with this person."
+    },
+    "stage": {
+      "enum": ["to_reach_out", "in_conversation", "meeting_scheduled", "met_next_step", "warm", "dormant"],
+      "description": "Mirrors the NetworkingCRM app pipeline stages."
+    },
+    "warmth": { "enum": ["hot", "warm", "neutral", "cold", null], "description": "Subjective relationship temperature." },
+    "next_step": { "type": ["string", "null"] },
+    "follow_up_date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "status": {
+      "enum": ["draft", "needs_review", "verified"],
+      "description": "draft = machine-generated, unreviewed. verified = human-confirmed facts."
+    }
+  }
+}
