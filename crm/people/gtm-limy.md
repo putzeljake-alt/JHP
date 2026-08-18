@@ -1,6 +1,6 @@
 ---
 id: gtm-limy
-name: null
+name: Limy GTM hiring inbox
 emails: ["gtm@limy.ai"]
 phone: null
 company: Limy

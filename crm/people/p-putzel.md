@@ -1,6 +1,6 @@
 ---
 id: p-putzel
-name: null
+name: TBD (putzelp@gmail.com)
 emails: ["putzelp@gmail.com"]
 phone: null
 company: null

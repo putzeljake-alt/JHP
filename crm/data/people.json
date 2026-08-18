@@ -1,7 +1,871 @@
 {
   "builtAt": "2026-08-18",
-  "count": 1,
+  "count": 110,
   "people": [
+    {
+      "id": "aaron-applebaum",
+      "name": "Aaron Applbaum",
+      "emails": [
+        "aaron@kineticavc.com"
+      ],
+      "phone": null,
+      "company": "Kinetica VC",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "LinkedIn outreach",
+      "intro_by": null,
+      "first_contact": "2026-06-08",
+      "last_contact": "2026-06-17",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/aaron-applebaum.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "adam-gerchen",
+      "name": "Adam Gerchen",
+      "emails": [
+        "arg@gerchen.com"
+      ],
+      "phone": null,
+      "company": "Gerchen Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-07",
+      "last_contact": "2026-07-14",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/adam-gerchen.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "adi-yehoshua",
+      "name": "Adi Yehoshua",
+      "emails": [
+        "adi.yehoshua@luxcapital.com"
+      ],
+      "phone": null,
+      "company": "Lux Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-24",
+      "last_contact": "2026-06-25",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/adi-yehoshua.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alec-litowitz",
+      "name": "Alec Litowitz",
+      "emails": [],
+      "phone": null,
+      "company": "Qstar Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alec-litowitz.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alex-craftflow",
+      "name": "Alex",
+      "emails": [
+        "alex@craftflow.com"
+      ],
+      "phone": null,
+      "company": "Craftflow",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-24",
+      "last_contact": "2026-08-04",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alex-craftflow.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alex-mayers",
+      "name": "Alex Meyer",
+      "emails": [
+        "alex@sandstone.com"
+      ],
+      "phone": null,
+      "company": "Sandstone",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-16",
+      "last_contact": "2026-06-21",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alex-mayers.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alexis-gauba",
+      "name": "Alexis Gauba",
+      "emails": [],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alexis-gauba.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alfonso-meow",
+      "name": "Alfonso Alvarez",
+      "emails": [
+        "alfonso@meow.com"
+      ],
+      "phone": null,
+      "company": "Meow",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Introduced by Rich Saylor (Kyth) as part of Jake's job search",
+      "intro_by": "Rich Saylor",
+      "first_contact": "2026-07-01",
+      "last_contact": "2026-07-06",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alfonso-meow.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alice-india-cook",
+      "name": "Alice India Cook",
+      "emails": [
+        "aliceindiacook@outlook.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Cc'd into the Sam intro thread by Zach Frankel to schedule his calls with Jake",
+      "intro_by": null,
+      "first_contact": "2026-07-27",
+      "last_contact": "2026-07-27",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alice-india-cook.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "alyssa-lakeshore",
+      "name": "Alyssa",
+      "emails": [
+        "alyssa@lakeshorecc.com"
+      ],
+      "phone": null,
+      "company": "Lakeshore Country Club",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "service",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-05-26",
+      "last_contact": "2026-06-07",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "warm",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/alyssa-lakeshore.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "b-gerchen",
+      "name": "Beth DeCaluwe",
+      "emails": [
+        "bld@gerchen.com"
+      ],
+      "phone": null,
+      "company": "Gerchen Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-08",
+      "last_contact": "2026-07-12",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/b-gerchen.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "b-qualls",
+      "name": "TBD (bqualls@suntekexteriors.com)",
+      "emails": [
+        "bqualls@suntekexteriors.com"
+      ],
+      "phone": null,
+      "company": "Suntek Exteriors",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "service",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-01",
+      "last_contact": "2026-08-05",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/b-qualls.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "bar-aleph",
+      "name": "Bar Schneidman",
+      "emails": [
+        "bar@aleph.vc"
+      ],
+      "phone": null,
+      "company": "Aleph",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "cc'd by Michael Eisenberg",
+      "intro_by": "Michael Eisenberg",
+      "first_contact": "2026-06-14",
+      "last_contact": "2026-06-14",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/bar-aleph.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ben-rabinowitz",
+      "name": "Ben Rabinowitz",
+      "emails": [
+        "ben@amiti.vc"
+      ],
+      "phone": null,
+      "company": "Amiti Ventures",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-02",
+      "last_contact": "2026-06-02",
+      "interaction_count": 1,
+      "channels": [
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/ben-rabinowitz.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "brendan-bettencourt",
+      "name": "Brendan Bettencourt",
+      "emails": [
+        "brendan.bettencourt@sandstone.com"
+      ],
+      "phone": "+1 781-733-7985",
+      "company": "Sandstone",
+      "role": "Sales",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-16",
+      "last_contact": "2026-06-16",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/brendan-bettencourt.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "brendan-sunset",
+      "name": "Brendan Mahony",
+      "emails": [
+        "brendan@sunsethq.com"
+      ],
+      "phone": "(978) 317-3845",
+      "company": "Sunset",
+      "role": "Founder | CEO",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Reached out after an intro from Etai re the BDR Wind-Down role",
+      "intro_by": "Etai",
+      "first_contact": "2026-08-07",
+      "last_contact": "2026-08-11",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/brendan-sunset.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "brian-gutman",
+      "name": "Brian Gutman",
+      "emails": [
+        "brian.gutman@kellerpostman.com"
+      ],
+      "phone": null,
+      "company": "Keller Postman",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-17",
+      "last_contact": "2026-07-17",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "connector"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/brian-gutman.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "cam-fink",
+      "name": "Cam Fink",
+      "emails": [
+        "cam@aaru.com"
+      ],
+      "phone": "+1 (847) 323-0077",
+      "company": "Aaru",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-06",
+      "last_contact": "2026-08-05",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/cam-fink.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "carolina-fain",
+      "name": "Carolina Fain",
+      "emails": [
+        "carolinafain@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-17",
+      "last_contact": "2026-06-17",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/carolina-fain.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "chana-hancox",
+      "name": "Chana Hancox",
+      "emails": [
+        "chana.hancox@ramp.com"
+      ],
+      "phone": "862-200-3839",
+      "company": "Ramp",
+      "role": "Growth @ Ramp (per email signature)",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-24",
+      "last_contact": "2026-08-11",
+      "interaction_count": 6,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/chana-hancox.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "charles-craftflow",
+      "name": "Charles Bryson",
+      "emails": [
+        "charles@craftflow.com"
+      ],
+      "phone": null,
+      "company": "Craftflow",
+      "role": "Founding Account Executive",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": "Tal Shub",
+      "first_contact": "2026-07-16",
+      "last_contact": "2026-08-05",
+      "interaction_count": 9,
+      "channels": [
+        "email",
+        "call",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/charles-craftflow.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "chris-demarchi",
+      "name": "Chris DeMarchi",
+      "emails": [
+        "chris.demarchi@oracle.com"
+      ],
+      "phone": null,
+      "company": "Oracle",
+      "role": "Regional Director, NetSuite SDR org (per intro email)",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": "Hallvard Lundevall",
+      "first_contact": "2026-07-15",
+      "last_contact": "2026-08-03",
+      "interaction_count": 4,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "job-search",
+        "oracle"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/chris-demarchi.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "connolly-bell",
+      "name": "Connolly Bell",
+      "emails": [
+        "connolly.bell@bwater.com"
+      ],
+      "phone": null,
+      "company": "Bridgewater Associates",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-11",
+      "last_contact": "2026-08-11",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/connolly-bell.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "courtney-furton",
+      "name": "Courtney Furton",
+      "emails": [
+        "courtney.furton@ramp.com"
+      ],
+      "phone": null,
+      "company": "Ramp",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-24",
+      "last_contact": "2026-08-03",
+      "interaction_count": 4,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/courtney-furton.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "d-meyer",
+      "name": "Dean",
+      "emails": [
+        "dmeyer@sequoiacap.com"
+      ],
+      "phone": null,
+      "company": "Sequoia Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-10",
+      "last_contact": "2026-06-10",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/d-meyer.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "darren-omni",
+      "name": "Darren Byrne",
+      "emails": [
+        "darren@omni.co"
+      ],
+      "phone": null,
+      "company": "Omni",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Referred by Spencer Farrar",
+      "intro_by": "Spencer Farrar",
+      "first_contact": "2026-07-09",
+      "last_contact": "2026-07-13",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/darren-omni.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "dave-kultura",
+      "name": "Dave",
+      "emails": [
+        "dave@kulturacap.com"
+      ],
+      "phone": null,
+      "company": "Kultura Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-20",
+      "last_contact": "2026-07-22",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/dave-kultura.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "david-lightspeed",
+      "name": "David",
+      "emails": [
+        "david@lsvp.com"
+      ],
+      "phone": null,
+      "company": "Lightspeed",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-11",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/david-lightspeed.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "david-pessis",
+      "name": "David Pessis",
+      "emails": [
+        "david.pessis@pointclickcare.com"
+      ],
+      "phone": null,
+      "company": "PointClickCare",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Intro by Jake's dad Steve Putzel, following a dinner conversation",
+      "intro_by": "Steve Putzel",
+      "first_contact": "2026-07-05",
+      "last_contact": "2026-08-04",
+      "interaction_count": 4,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "pointclickcare"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/david-pessis.md",
+      "hasTimeline": true
+    },
     {
       "id": "derek-feinman",
       "name": "Derek Feinman",
@@ -32,6 +896,2401 @@
       ],
       "status": "draft",
       "portfolio": "crm/people/derek-feinman.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "diane-lakeshore",
+      "name": "Diane Scully",
+      "emails": [
+        "diane@lakeshorecc.com"
+      ],
+      "phone": null,
+      "company": "Lakeshore Country Club",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "service",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-08",
+      "last_contact": "2026-06-08",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "warm",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/diane-lakeshore.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "dr-mike",
+      "name": "Dr. Mike (Michael Mahgerefteh, MD)",
+      "emails": [
+        "drmike@mahmd.com"
+      ],
+      "phone": "(424) 291-2382",
+      "company": "MAH MD",
+      "role": "Physician (MD)",
+      "location": "Los Angeles, CA",
+      "linkedin": null,
+      "category": "service",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-09",
+      "last_contact": "2026-08-12",
+      "interaction_count": 10,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "warm",
+      "warmth": "warm",
+      "next_step": "Confirm next appointment slot (openings offered for 8/25 - 9/3 PST)",
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/dr-mike.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "e-smith",
+      "name": "TBD (esmith@abt.com)",
+      "emails": [
+        "esmith@abt.com"
+      ],
+      "phone": null,
+      "company": "Abt",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-01",
+      "last_contact": "2026-08-03",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "craftflow",
+        "abt"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/e-smith.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "edward-fpi",
+      "name": "Edward",
+      "emails": [
+        "edward@fpi.co.il"
+      ],
+      "phone": null,
+      "company": "FPI",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Intro by family friend Patrick Gilligan (Clearlake Capital)",
+      "intro_by": "Patrick Gilligan",
+      "first_contact": "2026-06-18",
+      "last_contact": "2026-06-27",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "tel-aviv",
+        "networking"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/edward-fpi.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "eitan-engelberg",
+      "name": "Eitan Engelberg",
+      "emails": [
+        "eitanengelberg@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-09",
+      "last_contact": "2026-08-05",
+      "interaction_count": 6,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/eitan-engelberg.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "eli-nastir",
+      "name": "Eli Nastir",
+      "emails": [],
+      "phone": null,
+      "company": "Palantir",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/eli-nastir.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "elizabeth-aaru",
+      "name": "Elizabeth Ozemebhoya",
+      "emails": [
+        "elizabeth@aaru.com"
+      ],
+      "phone": null,
+      "company": "Aaru",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-01",
+      "last_contact": "2026-06-01",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/elizabeth-aaru.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "en-sherman",
+      "name": "Eli Sherman",
+      "emails": [
+        "ensherman@uchicago.edu"
+      ],
+      "phone": null,
+      "company": "University of Chicago",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-12",
+      "last_contact": "2026-08-16",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "chicago"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/en-sherman.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ethan-maeson",
+      "name": "Ethan",
+      "emails": [
+        "ethan@maesongroup.com"
+      ],
+      "phone": null,
+      "company": "Maeson Group",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Contact passed along by Jake's mother, Nicole Putzel",
+      "intro_by": "Nicole Putzel",
+      "first_contact": "2026-08-09",
+      "last_contact": "2026-08-11",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": "Schedule a call in the Sep 10-15 window Ethan proposed",
+      "follow_up_date": "2026-09-10",
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/ethan-maeson.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "griffin-seifman",
+      "name": "Griffin Seifman",
+      "emails": [
+        "griffin.seifman@rho.co"
+      ],
+      "phone": null,
+      "company": "Rho",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-06",
+      "last_contact": "2026-08-13",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/griffin-seifman.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "gtm-limy",
+      "name": "Limy GTM hiring inbox",
+      "emails": [
+        "gtm@limy.ai"
+      ],
+      "phone": null,
+      "company": "Limy",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Jake applied to Limy's GTM Associate role via this address",
+      "intro_by": null,
+      "first_contact": "2026-06-30",
+      "last_contact": "2026-06-30",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/gtm-limy.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "h-seal",
+      "name": "Hannah",
+      "emails": [
+        "h.seal@indexventures.com"
+      ],
+      "phone": null,
+      "company": "Index Ventures",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-11",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/h-seal.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "hallvard-lundevall",
+      "name": "Hallvard Lundevall",
+      "emails": [
+        "hallvard.lundevall@oracle.com"
+      ],
+      "phone": null,
+      "company": "Oracle",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-15",
+      "last_contact": "2026-07-15",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "job-search",
+        "oracle"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/hallvard-lundevall.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "hila-lightspeed",
+      "name": "Hila Chen",
+      "emails": [
+        "hila@lsvp.com"
+      ],
+      "phone": null,
+      "company": "Lightspeed",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-10",
+      "last_contact": "2026-06-11",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/hila-lightspeed.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "hillel-fuld",
+      "name": "Hillel Fuld",
+      "emails": [
+        "hilzfuld@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "LinkedIn conversation",
+      "intro_by": "Nina Raab connection (per subject line)",
+      "first_contact": "2026-06-28",
+      "last_contact": "2026-07-15",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/hillel-fuld.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "i-siegel",
+      "name": "Ilan Siegel",
+      "emails": [
+        "isiegel@simpleclosure.com"
+      ],
+      "phone": null,
+      "company": "SimpleClosure",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-12",
+      "last_contact": "2026-08-17",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/i-siegel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ilai-goldschmidt",
+      "name": "Ilai Goldschmidt",
+      "emails": [
+        "ilai.goldschmidt@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-19",
+      "last_contact": "2026-07-22",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/ilai-goldschmidt.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "j-margetta",
+      "name": "Jillian Margetta",
+      "emails": [
+        "jmargetta@benvoliogroup.com"
+      ],
+      "phone": null,
+      "company": "Benvolio Group",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": "Sam Frankfort",
+      "first_contact": "2026-06-09",
+      "last_contact": "2026-06-15",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/j-margetta.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "jason-apple",
+      "name": "Jason Apple",
+      "emails": [
+        "japple@centergatecapital.com"
+      ],
+      "phone": null,
+      "company": "Centergate Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Email intro from Steve Putzel",
+      "intro_by": "Steve Putzel",
+      "first_contact": "2026-06-12",
+      "last_contact": "2026-06-17",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/jason-apple.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "jason-snaider",
+      "name": "Jason Snaider",
+      "emails": [
+        "jason.snaider@bwater.com"
+      ],
+      "phone": null,
+      "company": "Bridgewater Associates",
+      "role": "Director / Talent Acquisition",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-10",
+      "last_contact": "2026-08-11",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/jason-snaider.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "jj-lister",
+      "name": "JJ Lister",
+      "emails": [
+        "iamjjlister@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-09",
+      "last_contact": "2026-08-06",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/jj-lister.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "jodi-lakeshore",
+      "name": "Jodi",
+      "emails": [
+        "jodi@lakeshorecc.com"
+      ],
+      "phone": null,
+      "company": "Lakeshore Country Club",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "service",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-07",
+      "last_contact": "2026-06-07",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "warm",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/jodi-lakeshore.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "jp-avoca",
+      "name": "Jay",
+      "emails": [
+        "jp@avoca.ai"
+      ],
+      "phone": null,
+      "company": "Avoca",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-13",
+      "last_contact": "2026-08-17",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/jp-avoca.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "kasey-fausak",
+      "name": "Kasey Fausak",
+      "emails": [
+        "kasey.fausak@bwater.com"
+      ],
+      "phone": null,
+      "company": "Bridgewater Associates",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-10",
+      "last_contact": "2026-08-13",
+      "interaction_count": 5,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/kasey-fausak.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "larry-bernstein",
+      "name": "Larry Bernstein",
+      "emails": [],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/larry-bernstein.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "leo-yoshinaga",
+      "name": "Leo Yoshinaga",
+      "emails": [
+        "leo.yoshinaga@ofbasis.com"
+      ],
+      "phone": null,
+      "company": "Basis",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Intro by recruiter Rich Saylor (Kyth) after a catch-up call",
+      "intro_by": "Rich Saylor",
+      "first_contact": "2026-07-01",
+      "last_contact": "2026-07-07",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "job-search",
+        "basis"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/leo-yoshinaga.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "liran-team8",
+      "name": "Liran",
+      "emails": [
+        "liran@team8.vc"
+      ],
+      "phone": null,
+      "company": "Team8",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-11",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/liran-team8.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "mariana-colicchio",
+      "name": "Mariana Colicchio",
+      "emails": [
+        "mariana.colicchio@sandstone.com"
+      ],
+      "phone": null,
+      "company": "Sandstone",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-16",
+      "last_contact": "2026-06-16",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/mariana-colicchio.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "marie-thurston",
+      "name": "Marie Thurston",
+      "emails": [
+        "marie.thurston@pointclickcare.com"
+      ],
+      "phone": null,
+      "company": "PointClickCare",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-07",
+      "last_contact": "2026-08-04",
+      "interaction_count": 4,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "pointclickcare"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/marie-thurston.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "matt-crew",
+      "name": "Matthew Roberts",
+      "emails": [
+        "matt@withcrew.ai"
+      ],
+      "phone": null,
+      "company": "Crew",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-10",
+      "last_contact": "2026-08-18",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": "15-minute sync scheduled for 2026-08-18 5:30pm CDT",
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/matt-crew.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "max-young",
+      "name": "Max Young",
+      "emails": [
+        "maxbyoung@gmail.com"
+      ],
+      "phone": "(415) 310-6850",
+      "company": "OuterJoyn",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-08",
+      "last_contact": "2026-07-27",
+      "interaction_count": 5,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "startup",
+        "fundraising"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/max-young.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "mc-swish",
+      "name": "Mihail Cucurezeanu",
+      "emails": [
+        "mc@swish.vc"
+      ],
+      "phone": null,
+      "company": "Swish Ventures",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "added by Ori Striechman to coordinate scheduling",
+      "intro_by": "Orri Striechman",
+      "first_contact": "2026-06-10",
+      "last_contact": "2026-06-10",
+      "interaction_count": 4,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/mc-swish.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "michael-eisenberg",
+      "name": "Michael Eisenberg",
+      "emails": [
+        "me@aleph.vc"
+      ],
+      "phone": null,
+      "company": "Aleph",
+      "role": "General Partner",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "cold email outreach",
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-21",
+      "interaction_count": 6,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/michael-eisenberg.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "michael-tang",
+      "name": "Michael Tang",
+      "emails": [
+        "michael.tang@rho.co"
+      ],
+      "phone": null,
+      "company": "Rho",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-10",
+      "last_contact": "2026-08-13",
+      "interaction_count": 5,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": "Panel Round with Rho scheduled Mon Aug 24, 2026, 3:30-5:00pm CDT (Zoom)",
+      "follow_up_date": "2026-08-24",
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/michael-tang.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "molly-mcelgunn",
+      "name": "Molly McElgunn",
+      "emails": [
+        "molly.mcelgunn@ramp.com"
+      ],
+      "phone": null,
+      "company": "Ramp",
+      "role": "Hiring manager, PDR FI (per interview invites)",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-31",
+      "last_contact": "2026-08-06",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/molly-mcelgunn.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "natalie-feller",
+      "name": "Natalie Feller",
+      "emails": [
+        "natalie.feller@oracle.com"
+      ],
+      "phone": null,
+      "company": "Oracle",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-30",
+      "last_contact": "2026-08-06",
+      "interaction_count": 6,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "job-search",
+        "oracle"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/natalie-feller.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "natalie-putzel",
+      "name": "Natalie Putzel",
+      "emails": [
+        "natalieputzel@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "family",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-16",
+      "last_contact": "2026-08-12",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "warm",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/natalie-putzel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ned-aaru",
+      "name": "Ned Koh",
+      "emails": [
+        "ned@aaru.com"
+      ],
+      "phone": null,
+      "company": "Aaru",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-06",
+      "last_contact": "2026-08-05",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/ned-aaru.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "nicole-putzel",
+      "name": "Nicole Putzel",
+      "emails": [
+        "nicoleputzel@gmail.com",
+        "nicole@putzelkitchen.com"
+      ],
+      "phone": "312.961.0619",
+      "company": "Putzel Kitchen",
+      "role": "Nutrition Coach / Chef (PN 1 Certified Nutrition Coach, Classically Trained Chef)",
+      "location": null,
+      "linkedin": null,
+      "category": "family",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-01",
+      "last_contact": "2026-07-13",
+      "interaction_count": 5,
+      "channels": [
+        "email"
+      ],
+      "stage": "warm",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/nicole-putzel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "nir-craftflow",
+      "name": "Nir",
+      "emails": [
+        "nir@craftflow.com"
+      ],
+      "phone": null,
+      "company": "Craftflow",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-04",
+      "last_contact": "2026-08-04",
+      "interaction_count": 1,
+      "channels": [
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/nir-craftflow.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "noa-bloch",
+      "name": "Noa Bloch",
+      "emails": [
+        "noa@kelasys.com"
+      ],
+      "phone": null,
+      "company": "Kela",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-08",
+      "last_contact": "2026-06-11",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/noa-bloch.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ofik-ophir",
+      "name": "Ofik Ophir",
+      "emails": [],
+      "phone": null,
+      "company": "Dream",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/ofik-ophir.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "olivia-aaru",
+      "name": "Olivia",
+      "emails": [
+        "olivia@aaru.com"
+      ],
+      "phone": null,
+      "company": "Aaru",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-05",
+      "last_contact": "2026-08-05",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/olivia-aaru.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "olivia-ross",
+      "name": "Olivia Ross",
+      "emails": [],
+      "phone": null,
+      "company": "Ramp",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/olivia-ross.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "omer-raven",
+      "name": "Omer Yair",
+      "emails": [
+        "omer@raven.io"
+      ],
+      "phone": null,
+      "company": "Raven",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-17",
+      "last_contact": "2026-06-22",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/omer-raven.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "omri-sacajiu",
+      "name": "Omri Isac",
+      "emails": [
+        "omrisac@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-02",
+      "last_contact": "2026-07-13",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/omri-sacajiu.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ori-swish",
+      "name": "Orri Striechman",
+      "emails": [
+        "orri@swish.vc"
+      ],
+      "phone": null,
+      "company": "Swish Ventures",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "met over WhatsApp (Yuval connection)",
+      "intro_by": null,
+      "first_contact": "2026-06-09",
+      "last_contact": "2026-06-29",
+      "interaction_count": 6,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/ori-swish.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "p-gilligan",
+      "name": "Patrick Gilligan",
+      "emails": [
+        "pgilligan@clearlake.com"
+      ],
+      "phone": null,
+      "company": "Clearlake Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-18",
+      "last_contact": "2026-06-18",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/p-gilligan.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "p-putzel",
+      "name": "TBD (putzelp@gmail.com)",
+      "emails": [
+        "putzelp@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "family",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-16",
+      "last_contact": "2026-07-16",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "warm",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/p-putzel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "rachel-imos",
+      "name": "TBD (rachelimos101@gmail.com)",
+      "emails": [
+        "rachelimos101@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "other",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-28",
+      "last_contact": "2026-07-28",
+      "interaction_count": 1,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/rachel-imos.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "rachel-tamburelli",
+      "name": "Rachel Tamburelli",
+      "emails": [
+        "rtamburelli@benvoliogroup.com"
+      ],
+      "phone": null,
+      "company": "Benvolio Group",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-09",
+      "last_contact": "2026-06-15",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/rachel-tamburelli.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "raz-naim",
+      "name": "Raz Naim",
+      "emails": [
+        "raz@amiti.vc"
+      ],
+      "phone": null,
+      "company": "Amiti Ventures",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-02",
+      "last_contact": "2026-06-02",
+      "interaction_count": 1,
+      "channels": [
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/raz-naim.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "rebecca-longjump",
+      "name": "Rebecca Kahnweiler",
+      "emails": [
+        "rebecca@longjump.vc"
+      ],
+      "phone": null,
+      "company": "Long Jump",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Cold email using contact info from Nicole Putzel",
+      "intro_by": "Nicole Putzel",
+      "first_contact": "2026-07-03",
+      "last_contact": "2026-07-07",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/rebecca-longjump.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "rich-kyth",
+      "name": "Rich Saylor",
+      "emails": [
+        "rich@kythhire.com"
+      ],
+      "phone": null,
+      "company": "Kyth",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-01",
+      "last_contact": "2026-07-01",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/rich-kyth.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "rudi-stifel",
+      "name": "Carrie Rudis",
+      "emails": [
+        "rudisc@stifel.com"
+      ],
+      "phone": null,
+      "company": "Stifel",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-08",
+      "last_contact": "2026-07-09",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "stifel",
+        "brokerage"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/rudi-stifel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "russ-miron",
+      "name": "Russ Miron",
+      "emails": [],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/russ-miron.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "russell-yue",
+      "name": "Russell Yue",
+      "emails": [
+        "russell@truarrow.com"
+      ],
+      "phone": null,
+      "company": "TruArrow",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Jake reached out citing USC Professor Julia Plotts and Dream Security as connections",
+      "intro_by": null,
+      "first_contact": "2026-06-13",
+      "last_contact": "2026-07-20",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/russell-yue.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "ryan-kaabi",
+      "name": "Ryan Kaabi",
+      "emails": [
+        "ryan.kaabi@cognition.ai"
+      ],
+      "phone": null,
+      "company": "Cognition",
+      "role": "Talent Acquisition",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-11",
+      "last_contact": "2026-08-11",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "recruiting"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/ryan-kaabi.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sam-frankfort",
+      "name": "Sam Frankfort",
+      "emails": [
+        "sfrankfort@benvoliogroup.com"
+      ],
+      "phone": null,
+      "company": "Benvolio Group",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-09",
+      "last_contact": "2026-07-15",
+      "interaction_count": 6,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/sam-frankfort.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sam-msbd",
+      "name": "Sam",
+      "emails": [
+        "sam@msbdcapital.com"
+      ],
+      "phone": null,
+      "company": "MSBD Capital",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-26",
+      "last_contact": "2026-07-26",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/sam-msbd.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sam-ramp",
+      "name": "Sam Buck",
+      "emails": [
+        "sam@ramp.com"
+      ],
+      "phone": null,
+      "company": "Ramp",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": "Brian Gutman",
+      "first_contact": "2026-07-17",
+      "last_contact": "2026-07-27",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/sam-ramp.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "samuel-cro",
+      "name": "Sam Cronin",
+      "emails": [
+        "samuelcro@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "other",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-23",
+      "last_contact": "2026-06-24",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/samuel-cro.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sara-aaru",
+      "name": "Sara Ganz",
+      "emails": [
+        "sara@aaru.com"
+      ],
+      "phone": null,
+      "company": "Aaru",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-05-31",
+      "last_contact": "2026-05-31",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/sara-aaru.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sarit-kinetica",
+      "name": "Sarit Konikov",
+      "emails": [
+        "sarit@kineticavc.com"
+      ],
+      "phone": null,
+      "company": "Kinetica VC",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-15",
+      "last_contact": "2026-06-17",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/sarit-kinetica.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sarit-team8",
+      "name": "Sarit",
+      "emails": [
+        "sarit@team8.vc"
+      ],
+      "phone": null,
+      "company": "Team8",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-11",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/sarit-team8.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "shani-kinetica",
+      "name": "Shani Yogev",
+      "emails": [
+        "shani@kineticavc.com"
+      ],
+      "phone": null,
+      "company": "Kinetica VC",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": "Aaron Applbaum",
+      "first_contact": "2026-06-08",
+      "last_contact": "2026-06-17",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/shani-kinetica.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "sigal-lewkowicz",
+      "name": "Sigal Lewkowicz",
+      "emails": [
+        "sigal.lewkowicz@ice.com"
+      ],
+      "phone": null,
+      "company": "ICE",
+      "role": null,
+      "location": "Tel Aviv (ICE office, Azrieli Towers Round building, 132 Derech Menachem Begin, floor 28)",
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-05-31",
+      "last_contact": "2026-06-11",
+      "interaction_count": 3,
+      "channels": [
+        "email",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "ice",
+        "tel-aviv"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/sigal-lewkowicz.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "spencer-farrar",
+      "name": "Spencer Farrar",
+      "emails": [
+        "sf@theoryvc.com"
+      ],
+      "phone": null,
+      "company": "Theory Ventures",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-15",
+      "last_contact": "2026-06-19",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/spencer-farrar.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "steve-putzel",
+      "name": "Steve Putzel",
+      "emails": [
+        "putzel.steve@gmail.com",
+        "steve.putzel@focuspartners.com",
+        "sputzel@kovitz.com"
+      ],
+      "phone": "(312) 673-7115",
+      "company": "Focus Partners",
+      "role": "Director, Advisory Leadership Team",
+      "location": "Chicago, IL",
+      "linkedin": null,
+      "category": "family",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-07",
+      "last_contact": "2026-08-13",
+      "interaction_count": 27,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "warm",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/steve-putzel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "susan-aleph",
+      "name": "Susan Wilner",
+      "emails": [
+        "susan@aleph.vc"
+      ],
+      "phone": null,
+      "company": "Aleph",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "added by Michael Eisenberg to schedule a call",
+      "intro_by": "Michael Eisenberg",
+      "first_contact": "2026-06-14",
+      "last_contact": "2026-06-15",
+      "interaction_count": 2,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/susan-aleph.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "tal-craftflow",
+      "name": "Tal Shub",
+      "emails": [
+        "tal@craftflow.com"
+      ],
+      "phone": "929-600-6970",
+      "company": "Craftflow",
+      "role": "Co-founder & CEO",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Jake's cold email re: GTM Associate role",
+      "intro_by": null,
+      "first_contact": "2026-07-15",
+      "last_contact": "2026-08-07",
+      "interaction_count": 13,
+      "channels": [
+        "email",
+        "call",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/tal-craftflow.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "tal-lightspeed",
+      "name": "Tal",
+      "emails": [
+        "tal@lsvp.com"
+      ],
+      "phone": null,
+      "company": "Lightspeed",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-11",
+      "interaction_count": 1,
+      "channels": [
+        "email"
+      ],
+      "stage": "to_reach_out",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/tal-lightspeed.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "teddy-buhl",
+      "name": "Teddy Buhl",
+      "emails": [
+        "teddysbuhl@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "other",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-17",
+      "last_contact": "2026-08-18",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/teddy-buhl.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "theodore-pasquesi",
+      "name": "Theodore Pasquesi",
+      "emails": [
+        "theodore.pasquesi@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-15",
+      "last_contact": "2026-08-11",
+      "interaction_count": 4,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/theodore-pasquesi.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "walker-sosa",
+      "name": "Walker Sosa",
+      "emails": [
+        "walker.sosa@johnslyng.com"
+      ],
+      "phone": null,
+      "company": "Johns Lyng Group",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-08-01",
+      "last_contact": "2026-08-05",
+      "interaction_count": 2,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/walker-sosa.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "y-wirzberger",
+      "name": "Yuval Wirzberger",
+      "emails": [
+        "ywirzberger@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "looped in by Hillel Fuld to schedule their meeting",
+      "intro_by": "Hillel Fuld",
+      "first_contact": "2026-06-29",
+      "last_contact": "2026-08-18",
+      "interaction_count": 4,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/y-wirzberger.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "yoav-knoll",
+      "name": "Yoav Knoll",
+      "emails": [],
+      "phone": null,
+      "company": "Kinetica VC",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": null,
+      "last_contact": null,
+      "interaction_count": 0,
+      "channels": [],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/yoav-knoll.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "yoni-lightspeed",
+      "name": "Yoni",
+      "emails": [
+        "yoni@lsvp.com"
+      ],
+      "phone": null,
+      "company": "Lightspeed",
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Cold email outreach",
+      "intro_by": null,
+      "first_contact": "2026-06-11",
+      "last_contact": "2026-06-13",
+      "interaction_count": 3,
+      "channels": [
+        "email"
+      ],
+      "stage": "in_conversation",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/yoni-lightspeed.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "z-frankel",
+      "name": "Zach Frankel",
+      "emails": [
+        "zfrankel@gmail.com"
+      ],
+      "phone": null,
+      "company": null,
+      "role": null,
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": "Introduced by Sam (sam@ramp.com) re career development in AI GTM",
+      "intro_by": "Sam (Ramp)",
+      "first_contact": "2026-07-27",
+      "last_contact": "2026-08-10",
+      "interaction_count": 5,
+      "channels": [
+        "email",
+        "call"
+      ],
+      "stage": "met_next_step",
+      "warmth": null,
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [],
+      "status": "draft",
+      "portfolio": "crm/people/z-frankel.md",
+      "hasTimeline": true
+    },
+    {
+      "id": "zeke-202ventures",
+      "name": "Zeke Fraint",
+      "emails": [
+        "zeke@202ventures.vc"
+      ],
+      "phone": "+1-847-910-9895",
+      "company": "202 Ventures",
+      "role": "Founder & General Partner",
+      "location": null,
+      "linkedin": null,
+      "category": "professional",
+      "how_met": null,
+      "intro_by": null,
+      "first_contact": "2026-07-19",
+      "last_contact": "2026-08-02",
+      "interaction_count": 9,
+      "channels": [
+        "email",
+        "in_person"
+      ],
+      "stage": "met_next_step",
+      "warmth": "warm",
+      "next_step": null,
+      "follow_up_date": null,
+      "tags": [
+        "vc"
+      ],
+      "status": "draft",
+      "portfolio": "crm/people/zeke-202ventures.md",
       "hasTimeline": true
     }
   ]

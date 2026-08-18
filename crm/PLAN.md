@@ -4,7 +4,9 @@
 **2026-06-01 and 2026-08-18** (the last 2.5 months), kept current going forward.
 
 **Owner:** Jake Putzel (putzel.jake@gmail.com)
-**Status:** Phase 0 complete (2026-08-18) · Phase 1 next
+**Status:** Phases 0–2 complete (2026-08-18): census done (110 people, 17
+exclusions) and all 110 portfolios drafted in `crm/people/`. **Phase 3 next —
+Jake's verification pass** (see Open questions at the bottom too).
 
 ---
 

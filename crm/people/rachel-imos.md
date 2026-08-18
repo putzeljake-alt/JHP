@@ -1,6 +1,6 @@
 ---
 id: rachel-imos
-name: null
+name: TBD (rachelimos101@gmail.com)
 emails: ["rachelimos101@gmail.com"]
 phone: null
 company: null
