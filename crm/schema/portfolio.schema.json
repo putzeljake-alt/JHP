@@ -20,8 +20,7 @@
     "emails": {
       "type": "array",
       "items": { "type": "string", "format": "email" },
-      "minItems": 1,
-      "description": "All known addresses for this person. Aliases merge here — one person, one portfolio."
+      "description": "All known addresses for this person (may be empty while unresolved). Aliases merge here — one person, one portfolio."
     },
     "phone": { "type": ["string", "null"] },
     "company": { "type": ["string", "null"] },
@@ -34,8 +33,8 @@
     },
     "how_met": { "type": ["string", "null"], "description": "Origin story: intro, cold outreach, event, existing relationship." },
     "intro_by": { "type": ["string", "null"], "description": "Portfolio id or name of the person who made the introduction." },
-    "first_contact": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-    "last_contact": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "first_contact": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "last_contact": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
     "interaction_count": { "type": ["integer", "null"], "minimum": 0, "description": "Total logged interactions in the window (emails sent/received + meetings)." },
     "channels": {
       "type": "array",

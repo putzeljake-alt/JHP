@@ -1,0 +1,2190 @@
+{
+  "generatedAt": "2026-08-18",
+  "window": {
+    "from": "2026-06-01",
+    "to": "2026-08-18"
+  },
+  "note": "Phase 1 complete census: all sent-mail threads (2 pages, ~91 threads) + all calendar events (243) in the window. Persons are identity-resolved; aliases merged.",
+  "counts": {
+    "persons": 111,
+    "excluded": 16
+  },
+  "persons": [
+    {
+      "slug": "aaron-applebaum",
+      "name": "Aaron Applebaum",
+      "emails": [
+        "aaron@kineticavc.com"
+      ],
+      "company": "Kinetica VC",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-08",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Zoom :Aaron <> Jake Putzel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "adam-gerchen",
+      "name": "Adam Gerchen",
+      "emails": [
+        "arg@gerchen.com"
+      ],
+      "company": "Gerchen Capital",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-07",
+      "lastSeen": "2026-07-14",
+      "evidence": [
+        "2026-07-14: event \"(9:00am CT) CALL: Jake Putzel and Adam Gerchen\"",
+        "2026-07-07: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "adi-yehoshua",
+      "name": "Adi Yehoshua",
+      "emails": [
+        "adi.yehoshua@luxcapital.com"
+      ],
+      "company": "Lux Capital",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "evidence": [
+        "2026-06-25: event \"Adi <> Jake\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alec-litowitz",
+      "name": "Alec Litowitz",
+      "emails": [],
+      "company": "Qstar Capital",
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alex-craftflow",
+      "name": "Alex",
+      "emails": [
+        "alex@craftflow.com"
+      ],
+      "company": "Craftflow",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-08-04: event \"Team Dinner\"",
+        "2026-07-24: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alex-mayers",
+      "name": "Alex Mayers",
+      "emails": [
+        "alex@sandstone.com"
+      ],
+      "company": "Sandstone",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-16",
+      "lastSeen": "2026-06-21",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alexis-gauba",
+      "name": "Alexis Gauba",
+      "emails": [],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alfonso-meow",
+      "name": "Alfonso",
+      "emails": [
+        "alfonso@meow.com"
+      ],
+      "company": "Meow",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-01",
+      "lastSeen": "2026-07-06",
+      "evidence": [
+        "2026-07-06: event \"Quick chat (Jake Putzel)\"",
+        "2026-07-01: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alice-india-cook",
+      "name": "Alice India Cook",
+      "emails": [
+        "aliceindiacook@outlook.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-27",
+      "lastSeen": "2026-07-27",
+      "evidence": [
+        "2026-07-27: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "alyssa-lakeshore",
+      "name": "Alyssa",
+      "emails": [
+        "alyssa@lakeshorecc.com"
+      ],
+      "company": "Lakeshore Country Club",
+      "category": "service",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-07",
+      "lastSeen": "2026-06-07",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "b-gerchen",
+      "name": null,
+      "emails": [
+        "bld@gerchen.com"
+      ],
+      "company": "Gerchen Capital",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-08",
+      "evidence": [
+        "2026-07-08: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "b-qualls",
+      "name": null,
+      "emails": [
+        "bqualls@suntekexteriors.com"
+      ],
+      "company": "Suntek Exteriors",
+      "category": "service",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-05",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-08-05: event \"Craft <> SunTek Exteriors \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "bar-aleph",
+      "name": "Bar",
+      "emails": [
+        "bar@aleph.vc"
+      ],
+      "company": "Aleph",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-14",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "ben-rabinowitz",
+      "name": "Ben Rabinowitz",
+      "emails": [
+        "ben@amiti.vc"
+      ],
+      "company": "Amiti Ventures",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-02",
+      "lastSeen": "2026-06-02",
+      "evidence": [
+        "2026-06-02: event \"F2F : Jake x Ben \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "brendan-bettencourt",
+      "name": "Brendan Bettencourt",
+      "emails": [
+        "brendan.bettencourt@sandstone.com"
+      ],
+      "company": "Sandstone",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-16",
+      "lastSeen": "2026-06-16",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "brendan-sunset",
+      "name": "Brendan",
+      "emails": [
+        "brendan@sunsethq.com"
+      ],
+      "company": "Sunset",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "evidence": [
+        "2026-08-07: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "brian-gutman",
+      "name": "Brian Gutman",
+      "emails": [
+        "brian.gutman@kellerpostman.com"
+      ],
+      "company": "Keller Postman",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-17",
+      "lastSeen": "2026-07-17",
+      "evidence": [
+        "2026-07-17: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "cam-fink",
+      "name": "Cam Fink",
+      "emails": [
+        "cam@aaru.com"
+      ],
+      "company": "Aaru",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-06",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-06-06: event \"Jake Putzel | Aaru\"",
+        "2026-08-04: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "carolina-fain",
+      "name": "Carolina Fain",
+      "emails": [
+        "carolinafain@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-17",
+      "lastSeen": "2026-06-17",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "chana-hancox",
+      "name": "Chana Hancox",
+      "emails": [
+        "chana.hancox@ramp.com"
+      ],
+      "company": "Ramp",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "evidence": [
+        "2026-07-24: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "charles-craftflow",
+      "name": "Charles",
+      "emails": [
+        "charles@craftflow.com"
+      ],
+      "company": "Craftflow",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-07-17: event \"Charles <> Jake\"",
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-07-27: event \"Power Hour #1\"",
+        "2026-07-28: event \"Day 2 | Work Trial \"",
+        "2026-07-29: event \"Day 3 | Sprint\"",
+        "2026-08-03: event \"Craft <> Abt \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "chris-demarchi",
+      "name": "Chris DeMarchi",
+      "emails": [
+        "chris.demarchi@oracle.com"
+      ],
+      "company": "Oracle",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-07-15: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "connolly-bell",
+      "name": "Connolly Bell",
+      "emails": [
+        "connolly.bell@bwater.com"
+      ],
+      "company": "Bridgewater Associates",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-11",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "courtney-furton",
+      "name": "Courtney Furton",
+      "emails": [
+        "courtney.furton@ramp.com"
+      ],
+      "company": "Ramp",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-24",
+      "lastSeen": "2026-07-24",
+      "evidence": [
+        "2026-07-24: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "d-meyer",
+      "name": null,
+      "emails": [
+        "dmeyer@sequoiacap.com"
+      ],
+      "company": "Sequoia Capital",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-10",
+      "lastSeen": "2026-06-10",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "darren-omni",
+      "name": "Darren",
+      "emails": [
+        "darren@omni.co"
+      ],
+      "company": "Omni",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-07-13",
+      "evidence": [
+        "2026-07-13: event \"Catch Up - Darren / Jake\"",
+        "2026-07-09: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "dave-kultura",
+      "name": "Dave",
+      "emails": [
+        "dave@kulturacap.com"
+      ],
+      "company": "Kultura Capital",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-22",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Kultura - Overview\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "david-lightspeed",
+      "name": "David",
+      "emails": [
+        "david@lsvp.com"
+      ],
+      "company": "Lightspeed",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "david-pessis",
+      "name": "David Pessis",
+      "emails": [
+        "david.pessis@pointclickcare.com"
+      ],
+      "company": "PointClickCare",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-05",
+      "evidence": [
+        "2026-07-05: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "derek-feinman",
+      "name": "Derek Feinman",
+      "emails": [
+        "derek.feinman@nmrk.com"
+      ],
+      "company": "Newmark",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "evidence": [
+        "2026-07-16: event \"Derek <> Jake \"",
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "status": "portfolio_drafted",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "diane-lakeshore",
+      "name": "Diane",
+      "emails": [
+        "diane@lakeshorecc.com"
+      ],
+      "company": "Lakeshore Country Club",
+      "category": "service",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-08",
+      "lastSeen": "2026-06-08",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "dr-mike",
+      "name": "Dr. Mike",
+      "emails": [
+        "drmike@mahmd.com"
+      ],
+      "company": "MAH MD",
+      "category": "service",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-03",
+      "lastSeen": "2026-08-12",
+      "evidence": [
+        "2026-07-02: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "e-smith",
+      "name": null,
+      "emails": [
+        "esmith@abt.com"
+      ],
+      "company": "Abt",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-03",
+      "lastSeen": "2026-08-03",
+      "evidence": [
+        "2026-08-03: event \"Craft <> Abt \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "edward-fpi",
+      "name": "Edward",
+      "emails": [
+        "edward@fpi.co.il"
+      ],
+      "company": "FPI",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-18",
+      "lastSeen": "2026-06-27",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "eitan-engelberg",
+      "name": "Eitan Engelberg",
+      "emails": [
+        "eitanengelberg@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-12",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-07-12: event \"Eitan <> Jake \"",
+        "2026-07-28: event \"Jake Cheli Eitan\"",
+        "2026-08-05: event \"Eitan <> Jake\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "eli-nastir",
+      "name": "Eli Nastir",
+      "emails": [],
+      "company": "Palantir",
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "elizabeth-aaru",
+      "name": "Elizabeth",
+      "emails": [
+        "elizabeth@aaru.com"
+      ],
+      "company": "Aaru",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-01",
+      "lastSeen": "2026-06-01",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "en-sherman",
+      "name": null,
+      "emails": [
+        "ensherman@uchicago.edu"
+      ],
+      "company": "University of Chicago",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-16",
+      "lastSeen": "2026-08-16",
+      "evidence": [
+        "2026-08-16: event \"Breakfast \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "ethan-maeson",
+      "name": "Ethan",
+      "emails": [
+        "ethan@maesongroup.com"
+      ],
+      "company": "Maeson Group",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-09",
+      "lastSeen": "2026-08-09",
+      "evidence": [
+        "2026-08-09: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "griffin-seifman",
+      "name": "Griffin Seifman",
+      "emails": [
+        "griffin.seifman@rho.co"
+      ],
+      "company": "Rho",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-06",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-08-06: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "gtm-limy",
+      "name": null,
+      "emails": [
+        "gtm@limy.ai"
+      ],
+      "company": "Limy",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "h-seal",
+      "name": null,
+      "emails": [
+        "h.seal@indexventures.com"
+      ],
+      "company": "Index Ventures",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "hallvard-lundevall",
+      "name": "Hallvard Lundevall",
+      "emails": [
+        "hallvard.lundevall@oracle.com"
+      ],
+      "company": "Oracle",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-07-15: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "hila-lightspeed",
+      "name": "Hila",
+      "emails": [
+        "hila@lsvp.com"
+      ],
+      "company": "Lightspeed",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-10",
+      "lastSeen": "2026-06-11",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "hillel-fuld",
+      "name": "Hillel Fuld",
+      "emails": [
+        "hilzfuld@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-07-15: event \"Jake Putzel <> Hillel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "i-siegel",
+      "name": null,
+      "emails": [
+        "isiegel@simpleclosure.com"
+      ],
+      "company": "SimpleClosure",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-17",
+      "lastSeen": "2026-08-17",
+      "evidence": [
+        "2026-08-17: event \"Jake Putzel and Ilan Siegel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "ilai-goldschmidt",
+      "name": "Ilai Goldschmidt",
+      "emails": [
+        "ilai.goldschmidt@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-22",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Jake <> Ilai\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "j-margetta",
+      "name": null,
+      "emails": [
+        "jmargetta@benvoliogroup.com"
+      ],
+      "company": "Benvolio Group",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-15",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "jake-craftflow",
+      "name": "Jake",
+      "emails": [
+        "jake@craftflow.com"
+      ],
+      "company": "Craftflow",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-27",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-07-28: event \"Day 2 | Work Trial \"",
+        "2026-07-29: event \"Day 3 | Sprint\"",
+        "2026-07-29: event \"Trial Wrap Up\"",
+        "2026-08-03: event \"Craft <> Abt \"",
+        "2026-08-04: event \"Team Dinner\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "jason-apple",
+      "name": "Jason Apple",
+      "emails": [
+        "japple@centergatecapital.com"
+      ],
+      "company": "Centergate Capital",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Jason Apple/Jake Putzel networking call\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "jason-snaider",
+      "name": "Jason Snaider",
+      "emails": [
+        "jason.snaider@bwater.com"
+      ],
+      "company": "Bridgewater Associates",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: event \"Jake Putzel - Connect w/ Bridgewater \"",
+        "2026-08-10: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "jj-lister",
+      "name": "JJ Lister",
+      "emails": [
+        "iamjjlister@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-09",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-07-11: event \"Jeremy <> Jake\"",
+        "2026-08-06: event \"JJ <> Jake\"",
+        "2026-07-09: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "jodi-lakeshore",
+      "name": "Jodi",
+      "emails": [
+        "jodi@lakeshorecc.com"
+      ],
+      "company": "Lakeshore Country Club",
+      "category": "service",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-08",
+      "lastSeen": "2026-06-08",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "jp-avoca",
+      "name": "JP",
+      "emails": [
+        "jp@avoca.ai"
+      ],
+      "company": "Avoca",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-08-13",
+      "lastSeen": "2026-08-13",
+      "evidence": [
+        "2026-08-13: event \"Jay <> Jake\"",
+        "2026-08-13: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "kasey-fausak",
+      "name": "Kasey Fausak",
+      "emails": [
+        "kasey.fausak@bwater.com"
+      ],
+      "company": "Bridgewater Associates",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-08-10",
+      "evidence": [
+        "2026-08-10: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "larry-bernstein",
+      "name": "Larry Bernstein",
+      "emails": [],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "leo-yoshinaga",
+      "name": "Leo Yoshinaga",
+      "emails": [
+        "leo.yoshinaga@ofbasis.com"
+      ],
+      "company": "Basis",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-01",
+      "lastSeen": "2026-07-07",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "liran-team8",
+      "name": "Liran",
+      "emails": [
+        "liran@team8.vc"
+      ],
+      "company": "Team8",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "mariana-colicchio",
+      "name": "Mariana Colicchio",
+      "emails": [
+        "mariana.colicchio@sandstone.com"
+      ],
+      "company": "Sandstone",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-16",
+      "lastSeen": "2026-06-16",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "marie-thurston",
+      "name": "Marie Thurston",
+      "emails": [
+        "marie.thurston@pointclickcare.com"
+      ],
+      "company": "PointClickCare",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-07",
+      "lastSeen": "2026-07-07",
+      "evidence": [
+        "2026-07-07: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "matt-crew",
+      "name": "Matt",
+      "emails": [
+        "matt@withcrew.ai"
+      ],
+      "company": "Crew",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "evidence": [
+        "2026-08-18: event \"Jake Putzel  and Matthew Roberts\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "max-young",
+      "name": "Max Young",
+      "emails": [
+        "maxbyoung@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-27",
+      "evidence": [
+        "2026-07-16: event \"Max <> Jake \"",
+        "2026-07-27: event \"Max <> Jake \"",
+        "2026-07-08: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "mc-swish",
+      "name": null,
+      "emails": [
+        "mc@swish.vc"
+      ],
+      "company": "Swish Ventures",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-10",
+      "lastSeen": "2026-06-10",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "michael-eisenberg",
+      "name": "Michael Eisenberg",
+      "emails": [
+        "me@aleph.vc"
+      ],
+      "company": "Aleph",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-21",
+      "evidence": [
+        "2026-06-21: event \"CALL w/ Jake Putzel & Michael Eisenberg\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "michael-tang",
+      "name": "Michael Tang",
+      "emails": [
+        "michael.tang@rho.co"
+      ],
+      "company": "Rho",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-10",
+      "lastSeen": "2026-08-10",
+      "evidence": [
+        "2026-08-10: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "molly-mcelgunn",
+      "name": "Molly McElgunn",
+      "emails": [
+        "molly.mcelgunn@ramp.com"
+      ],
+      "company": "Ramp",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-06",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-08-06: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "natalie-feller",
+      "name": "Natalie Feller",
+      "emails": [
+        "natalie.feller@oracle.com"
+      ],
+      "company": "Oracle",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-30",
+      "lastSeen": "2026-07-30",
+      "evidence": [
+        "2026-07-30: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "natalie-putzel",
+      "name": "Natalie Putzel",
+      "emails": [
+        "natalieputzel@gmail.com"
+      ],
+      "company": null,
+      "category": "family",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-16",
+      "lastSeen": "2026-08-12",
+      "evidence": [
+        "2026-08-12: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "ned-aaru",
+      "name": "Ned",
+      "emails": [
+        "ned@aaru.com"
+      ],
+      "company": "Aaru",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-06",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-06-06: event \"Jake Putzel | Aaru\"",
+        "2026-08-04: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "nicole-putzel",
+      "name": "Nicole Putzel",
+      "emails": [
+        "nicoleputzel@gmail.com",
+        "nicole@putzelkitchen.com"
+      ],
+      "company": "Putzel Kitchen",
+      "category": "family",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-01",
+      "lastSeen": "2026-06-16",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "nir-craftflow",
+      "name": "Nir",
+      "emails": [
+        "nir@craftflow.com"
+      ],
+      "company": "Craftflow",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-04",
+      "lastSeen": "2026-08-04",
+      "evidence": [
+        "2026-08-04: event \"Team Dinner\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "noa-bloch",
+      "name": "Noa Bloch",
+      "emails": [
+        "noa@kelasys.com"
+      ],
+      "company": "Kela",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [
+        "2026-06-11: event \"[Rescheduling] Jake & Noa\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "ofik-ophir",
+      "name": "Ofik Ophir",
+      "emails": [],
+      "company": "Dream",
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "olivia-aaru",
+      "name": "Olivia",
+      "emails": [
+        "olivia@aaru.com"
+      ],
+      "company": "Aaru",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-05",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-08-05: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "olivia-ross",
+      "name": "Olivia Ross",
+      "emails": [],
+      "company": "Ramp",
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "omer-raven",
+      "name": "Omer",
+      "emails": [
+        "omer@raven.io"
+      ],
+      "company": "Raven",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "evidence": [
+        "2026-06-22: event \"Omer <> Jake \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "omri-sacajiu",
+      "name": "Omri",
+      "emails": [
+        "omrisac@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-13",
+      "lastSeen": "2026-07-13",
+      "evidence": [
+        "2026-07-13: event \"Omri <> Jake \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "ori-swish",
+      "name": "Ori",
+      "emails": [
+        "orri@swish.vc"
+      ],
+      "company": "Swish Ventures",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-09",
+      "lastSeen": "2026-06-29",
+      "evidence": [
+        "2026-06-29: event \"Ori <> Jake | Zoom \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "p-gilligan",
+      "name": null,
+      "emails": [
+        "pgilligan@clearlake.com"
+      ],
+      "company": "Clearlake Capital",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-18",
+      "lastSeen": "2026-06-18",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "p-putzel",
+      "name": null,
+      "emails": [
+        "putzelp@gmail.com"
+      ],
+      "company": null,
+      "category": "family",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "evidence": [
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "rachel-imos",
+      "name": null,
+      "emails": [
+        "rachelimos101@gmail.com"
+      ],
+      "company": null,
+      "category": "other",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-28",
+      "lastSeen": "2026-07-28",
+      "evidence": [
+        "2026-07-28: event \"Jake Cheli Eitan\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "rachel-tamburelli",
+      "name": "Rachel Tamburelli",
+      "emails": [
+        "rtamburelli@benvoliogroup.com"
+      ],
+      "company": "Benvolio Group",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-15",
+      "lastSeen": "2026-06-15",
+      "evidence": [
+        "2026-06-15: event \"10am-SF meeting with Jake Putzel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "raz-naim",
+      "name": "Raz Naim",
+      "emails": [
+        "raz@amiti.vc"
+      ],
+      "company": "Amiti Ventures",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-02",
+      "lastSeen": "2026-06-02",
+      "evidence": [
+        "2026-06-02: event \"F2F : Jake x Ben \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "rebecca-longjump",
+      "name": "Rebecca",
+      "emails": [
+        "rebecca@longjump.vc"
+      ],
+      "company": "Long Jump",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "evidence": [
+        "2026-07-03: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "rich-kyth",
+      "name": "Rich",
+      "emails": [
+        "rich@kythhire.com"
+      ],
+      "company": "Kyth",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-01",
+      "lastSeen": "2026-07-01",
+      "evidence": [
+        "2026-07-01: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "rudi-stifel",
+      "name": null,
+      "emails": [
+        "rudisc@stifel.com"
+      ],
+      "company": "Stifel",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-08",
+      "lastSeen": "2026-07-08",
+      "evidence": [
+        "2026-07-08: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "russ-miron",
+      "name": "Russ Miron",
+      "emails": [],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "russell-yue",
+      "name": "Russell Yue",
+      "emails": [
+        "russell@truarrow.com"
+      ],
+      "company": "TruArrow",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-13",
+      "lastSeen": "2026-07-20",
+      "evidence": [
+        "2026-07-20: event \"Russell <> Jake\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "ryan-kaabi",
+      "name": "Ryan Kaabi",
+      "emails": [
+        "ryan.kaabi@cognition.ai"
+      ],
+      "company": "Cognition",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-08-11",
+      "lastSeen": "2026-08-11",
+      "evidence": [
+        "2026-08-11: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "sam-frankfort",
+      "name": "Sam Frankfort",
+      "emails": [
+        "sfrankfort@benvoliogroup.com"
+      ],
+      "company": "Benvolio Group",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-15",
+      "lastSeen": "2026-07-15",
+      "evidence": [
+        "2026-06-15: event \"10am-SF meeting with Jake Putzel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "sam-msbd",
+      "name": "Sam",
+      "emails": [
+        "sam@msbdcapital.com"
+      ],
+      "company": "MSBD Capital",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-07-26",
+      "lastSeen": "2026-07-26",
+      "evidence": [
+        "2026-07-26: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "sam-ramp",
+      "name": "Sam",
+      "emails": [
+        "sam@ramp.com"
+      ],
+      "company": "Ramp",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-17",
+      "lastSeen": "2026-07-23",
+      "evidence": [
+        "2026-07-23: event \"Jake / Sam intro\"",
+        "2026-07-17: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "samuel-cro",
+      "name": null,
+      "emails": [
+        "samuelcro@gmail.com"
+      ],
+      "company": null,
+      "category": "other",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-07-07",
+      "lastSeen": "2026-07-07",
+      "evidence": [
+        "2026-07-07: event \"Lunch\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "sara-aaru",
+      "name": "Sara",
+      "emails": [
+        "sara@aaru.com"
+      ],
+      "company": "Aaru",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-05-31",
+      "lastSeen": "2026-05-31",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "sarit-kinetica",
+      "name": null,
+      "emails": [
+        "sarit@kineticavc.com"
+      ],
+      "company": "Kinetica VC",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-15",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Zoom :Aaron <> Jake Putzel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "sarit-team8",
+      "name": "Sarit",
+      "emails": [
+        "sarit@team8.vc"
+      ],
+      "company": "Team8",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "shani-kinetica",
+      "name": null,
+      "emails": [
+        "shani@kineticavc.com"
+      ],
+      "company": "Kinetica VC",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-08",
+      "lastSeen": "2026-06-17",
+      "evidence": [
+        "2026-06-17: event \"Zoom :Aaron <> Jake Putzel\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "sigal-lewkowicz",
+      "name": "Sigal Lewkowicz",
+      "emails": [
+        "sigal.lewkowicz@ice.com"
+      ],
+      "company": "ICE",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [
+        "2026-06-11: event \"Alex Albert Connection\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "spencer-farrar",
+      "name": "Spencer Farrar",
+      "emails": [
+        "sf@theoryvc.com"
+      ],
+      "company": "Theory Ventures",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "evidence": [
+        "2026-06-19: event \"Spencer <> Jake\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "steve-putzel",
+      "name": "Steve Putzel",
+      "emails": [
+        "putzel.steve@gmail.com",
+        "steve.putzel@focuspartners.com",
+        "sputzel@kovitz.com"
+      ],
+      "company": "Focus Partners",
+      "category": "family",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-05",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-16: email thread (sent-mail scan p.1)",
+        "2026-07-22: event \"Kultura - Overview\"",
+        "2026-07-05: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "susan-aleph",
+      "name": "Susan",
+      "emails": [
+        "susan@aleph.vc"
+      ],
+      "company": "Aleph",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-14",
+      "lastSeen": "2026-06-15",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "tal-craftflow",
+      "name": "Tal",
+      "emails": [
+        "tal@craftflow.com"
+      ],
+      "company": "Craftflow",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-15",
+      "lastSeen": "2026-08-06",
+      "evidence": [
+        "2026-07-16: event \"Jake x Tal - Intro\"",
+        "2026-07-27: event \"Jake | GTM | Onboarding & Kickoff\"",
+        "2026-07-27: event \"Power Hour #1\"",
+        "2026-07-28: event \"Day 2 | Work Trial \"",
+        "2026-07-29: event \"Day 3 | Sprint\"",
+        "2026-07-29: event \"Trial Wrap Up\""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "tal-lightspeed",
+      "name": "Tal",
+      "emails": [
+        "tal@lsvp.com"
+      ],
+      "company": "Lightspeed",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-11",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "teddy-buhl",
+      "name": null,
+      "emails": [
+        "teddysbuhl@gmail.com"
+      ],
+      "company": null,
+      "category": "other",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-18",
+      "lastSeen": "2026-08-18",
+      "evidence": [
+        "2026-08-18: event \"Breakfast \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "theodore-pasquesi",
+      "name": "Theodore Pasquesi",
+      "emails": [
+        "theodore.pasquesi@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-22",
+      "evidence": [
+        "2026-07-22: event \"Kultura - Overview\"",
+        "2026-07-16: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "walker-sosa",
+      "name": "Walker Sosa",
+      "emails": [
+        "walker.sosa@johnslyng.com"
+      ],
+      "company": "Johns Lyng Group",
+      "category": "professional",
+      "sources": [
+        "calendar"
+      ],
+      "firstSeen": "2026-08-05",
+      "lastSeen": "2026-08-05",
+      "evidence": [
+        "2026-08-05: event \"Craft <> Walker \""
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "y-wirzberger",
+      "name": null,
+      "emails": [
+        "ywirzberger@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-06-29",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "yoav-knoll",
+      "name": "Yoav Knoll",
+      "emails": [],
+      "company": "Kinetica VC",
+      "category": "professional",
+      "sources": [
+        "app-seed"
+      ],
+      "firstSeen": null,
+      "lastSeen": null,
+      "evidence": [
+        "listed in NetworkingCRM app seed data (src/NetworkingCRM.jsx); no Gmail/Calendar evidence in window"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "yoni-lightspeed",
+      "name": "Yoni",
+      "emails": [
+        "yoni@lsvp.com"
+      ],
+      "company": "Lightspeed",
+      "category": "professional",
+      "sources": [
+        "gmail"
+      ],
+      "firstSeen": "2026-06-11",
+      "lastSeen": "2026-06-13",
+      "evidence": [],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    },
+    {
+      "slug": "z-frankel",
+      "name": null,
+      "emails": [
+        "zfrankel@gmail.com"
+      ],
+      "company": null,
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-27",
+      "lastSeen": "2026-08-10",
+      "evidence": [
+        "2026-08-03: event \"Zach to call Jake Putzel - 8475584017\"",
+        "2026-08-10: event \"Zach to call Jake Putzel - 8475584017\"",
+        "2026-07-27: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": true
+    },
+    {
+      "slug": "zeke-202ventures",
+      "name": "Zeke",
+      "emails": [
+        "zeke@202ventures.vc"
+      ],
+      "company": "202 Ventures",
+      "category": "professional",
+      "sources": [
+        "calendar",
+        "gmail"
+      ],
+      "firstSeen": "2026-07-19",
+      "lastSeen": "2026-07-30",
+      "evidence": [
+        "2026-07-27: event \"**TBR** Zeke < > Jake coffee\"",
+        "2026-07-30: event \"Jake <> Zeke\"",
+        "2026-07-19: email thread (sent-mail scan p.1)"
+      ],
+      "status": "needs_portfolio",
+      "needsNameResolution": false
+    }
+  ],
+  "excluded": [
+    {
+      "email": "amitimeetingroom@amiti.vc",
+      "reason": "meeting room"
+    },
+    {
+      "email": "boardy@boardy.ai",
+      "reason": "AI bot"
+    },
+    {
+      "email": "chaim@cardinals.com",
+      "reason": "bounced address"
+    },
+    {
+      "email": "svc_recruit_schedule@bwater.com",
+      "reason": "scheduling service account"
+    },
+    {
+      "email": "talsayag@netvision.net.il",
+      "reason": "bounced address"
+    },
+    {
+      "email": "zoom_295nyc_17f_franc_phonebooth@bwater.com",
+      "reason": "room resource"
+    },
+    {
+      "email": "team@sandstone.com",
+      "reason": "role account"
+    },
+    {
+      "email": "contact@aicepower.com",
+      "reason": "role account"
+    },
+    {
+      "email": "careers@aresindustries.com",
+      "reason": "role account"
+    },
+    {
+      "email": "chaimbloom@cardinals.com",
+      "reason": "bounced address"
+    },
+    {
+      "email": "chaim.bloom@cardinals.com",
+      "reason": "bounced address"
+    },
+    {
+      "email": "matthew@team8.vc",
+      "reason": "bounced address"
+    },
+    {
+      "email": "me@aleph.com",
+      "reason": "bounced (typo of me@aleph.vc)"
+    },
+    {
+      "email": "jputzel@usc.edu",
+      "reason": "self alias"
+    },
+    {
+      "email": "jacobhputzel@gmail.com",
+      "reason": "self alias"
+    },
+    {
+      "email": "putzel.jake@gmail.com",
+      "reason": "self"
+    }
+  ]
+}

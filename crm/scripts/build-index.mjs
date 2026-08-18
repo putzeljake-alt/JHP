@@ -37,12 +37,12 @@ for (const file of fs.readdirSync(PEOPLE).filter((f) => f.endsWith('.md')).sort(
 
   if (data.id !== path.basename(file, '.md')) err(`id "${data.id}" must match filename`);
   if (!data.name) err('name is required');
-  if (!Array.isArray(data.emails) || data.emails.length === 0) err('emails must be a non-empty array');
+  if (!Array.isArray(data.emails)) err('emails must be an array (may be empty while unresolved)');
   if (!CATEGORIES.includes(data.category)) err(`category must be one of ${CATEGORIES.join(', ')}`);
   if (!STAGES.includes(data.stage)) err(`stage must be one of ${STAGES.join(', ')}`);
   if (!STATUSES.includes(data.status)) err(`status must be one of ${STATUSES.join(', ')}`);
   for (const k of ['first_contact', 'last_contact']) {
-    if (!DATE.test(String(data[k] ?? ''))) err(`${k} must be YYYY-MM-DD`);
+    if (data[k] != null && !DATE.test(String(data[k]))) err(`${k} must be YYYY-MM-DD or null`);
   }
   if (data.follow_up_date != null && !DATE.test(String(data.follow_up_date))) err('follow_up_date must be YYYY-MM-DD or null');
 
@@ -74,7 +74,7 @@ fs.writeFileSync(
 const contacts = people.map((p) => ({
   id: `pf_${p.id}`,
   name: p.name,
-  email: p.emails[0],
+  email: p.emails[0] ?? '',
   company: p.company ?? '',
   role: p.role ?? '',
   channels: (p.channels ?? []).filter((c) => ['call', 'email', 'whatsapp', 'linkedin'].includes(c)),
